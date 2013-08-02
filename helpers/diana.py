@@ -92,3 +92,6 @@ class ExcelParser(poioapi.io.graf.BaseParser):
 
     def region_for_annotation(self, annotation):
         pass
+
+    def get_primary_data(self):
+        pass
