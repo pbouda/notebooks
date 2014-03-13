@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.link:hover {
+  stroke: #000;
+  stroke-opacity: 1.0;
+}
+
+</style>
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<div id="nav"></div>
+<hr/>
+<div id="graph"></div>
+
+<script>
+
+var color = d3.scale.category20();
+
+var width = 1400,
+    height = 1000;
+
+var svg = d3.select("#nav").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var force = d3.layout.force()
+    .gravity(.05)
+    .distance(100)
+    .charge(-250)
+    .size([width, height]);
+
+d3.json("bodyparts_graph.json", function(error, json) {
+  force
+      .nodes(json.nodes)
+      .links(json.links)
+      .start();
+
+  var link = svg.selectAll("line.link")
+      .data(json.links)
+    .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", function(d) { return d.weight; });
+
+  link.on("click", function(d, i) {
+      show_graph(i);
+    });
+
+  var node = svg.selectAll("circle.node")
+      .data(json.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .call(force.drag);
+
+  node.append("circle")
+      .attr("r", 5);
+      //.style("fill", function(d) { return color(d.group); })
+
+  node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.id });
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  });
+});
+
+function show_graph(number) {
+  d3.select("#graph").select("svg").remove();
+
+  var svg = d3.select("#graph").append("svg")
+      .attr("width", width)
+      .attr("height", 350);
+
+  var force = d3.layout.force()
+      .gravity(.05)
+      .distance(80)
+      .charge(-250)
+      .size([width, 350]);
+
+  d3.json("bodyparts_data_" + number.toString() + ".json", function(error, json) {
+    force
+        .nodes(json.nodes)
+        .links(json.links)
+        .start();
+
+    var link2 = svg.selectAll("line.link")
+        .data(json.links)
+      .enter().append("line")
+        .attr("class", "link");
+
+    var node2 = svg.selectAll("circle.node")
+        .data(json.nodes)
+      .enter().append("g")
+        .attr("class", "node")
+        .call(force.drag);
+
+    node2.append("circle")
+        .attr("r", 5)
+        .style("fill", function(d) { return color(d.group); })
+
+    node2.append("text")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .style("fill", function(d) {
+          if (d.source) {
+            return "#1f77b4";
+          } else {
+            return "#000";
+          }
+        })
+        .text(function(d) { return d.id })
+        .on("click", function(d, i) {
+          alert(d);
+          if (d.source) {
+            window.open("http://www.quanthistling.info/data/source/"+ d.source + "/" + d.page + "/" + d.pos_on_page + "/index.html", "dict");
+          }
+        });
+
+    force.on("tick", function() {
+      link2.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      node2.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    });
+  });
+
+}
+
+function show_graph(number) {
+  d3.select("#graph").select("svg").remove();
+
+  var svg = d3.select("#graph").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var force = d3.layout.force()
+      .gravity(.05)
+      .distance(120)
+      .charge(-250)
+      .size([width, height]);
+
+  d3.json("bodyparts_data_" + number.toString() + ".json", function(error, json) {
+    force
+        .nodes(json.nodes)
+        .links(json.links)
+        .start();
+
+    var link = svg.selectAll("line.link")
+        .data(json.links)
+      .enter().append("line")
+        .attr("class", "link");
+
+    var node = svg.selectAll("circle.node")
+        .data(json.nodes)
+      .enter().append("g")
+        .attr("class", "node")
+        .call(force.drag);
+
+    node.append("circle")
+        .attr("r", 5)
+        .style("fill", function(d) { return color(d.group); })
+
+    node.append("text")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .style("fill", function(d) {
+          if (d.source) {
+            return "#1f77b4";
+          } else {
+            return "#000";
+          }
+        })
+        .text(function(d) { return d.id })
+        .on("click", function(d) {
+          if (d.source) {
+            window.open("http://www.cidles.eu/quanthistling/source/"+ d.source + "/" + d.page + "/" + d.pos_on_page + "/index.html", "dict");
+          }
+        });
+
+    force.on("tick", function() {
+      link.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    });
+  });
+
+}
+</script>
+
+</body>
