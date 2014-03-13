@@ -1,62 +1,125 @@
-cabeza
-cara
-espalda
-hueso
-músculo
-piel
-sangre
-tronco
-vena
+ano
+aliento
+ante brazo
+axila
+barba
+bigote
 boca
+brazo
+brazo derecho
+brazo izquierdo
+busto
 cabello
-pelo
-cachete
+cabeza
+cadáver
+cadera
+caderas
+canilla
+cara
+ceja
+cerebro
+clítoris
+codo
+columna vertebral
+conciencia
+corazón
+corva
+costilla
+cráneo
 cuello
+cuerpo
+dedo
+dedo del pie
+dedo gordo del pie
+dedo índice
+dedo meñique
+dedo pequeño del pie
+dedo pulgar
+dedo pulgar del pie
 diente
+dígito
+escroto
+espalda
+espina
+espina dorsal
+espinilla
+esternón
+estómago
+excreción
+excrementos
+extremidades
 frente
+garganta
+hígado
+hombro
+huella
+hueso
 labio
+lado del cuerpo
+lado derecho del cuerpo
+lado izquierdo del cuerpo
 lengua
+mandíbula
+mano
+mano derecha
+mano izquierda
+manzana de adán
 mejilla
 mentón
-nariz
-nuca
-ojo
-oreja
-abdomen
-antebrazo
-brazo
-cintura
-codo
-hombro
-ombligo
-pecho
-dedo
-mano
 muñeca
+músculo
 muslo
 nalga
+nariz
+nervio
+nudillo
+nuez
+nuez de la garganta
+oído
+ojo
+ombligo
+omóplato
+órgano
+orina
+palma
+palma de la mano
 pantorrilla
+pantorrilla de la pierna
+párpado
+parte posterior de la cabeza
+pecho
+pelo
+pelo de la nariz
+pelo genital
+pelo púbico
 pene
-pierna
+pensamiento
+persona
+pestaña
+pezón
 pie
+piel
+planta del pie
+pulgar
+pulmón
+puño
+punta del dedo del pie
+quijada
+retina
 rodilla
-talone
+saliva
+sangre
+talón
+tendón
+testículo
+tobillo
+tórax
+tórax óseo
+trasero
+uña
+uña del pie
 vagina
-apéndice
-cerebro
-colon
-columna vertebral
-esófago
-glándulas
-hígado
-estómago
-intestinos
-intestino delgado
-intestino grueso
-matriz
-ovarios
-páncreas
-riñones
-útero
 vejiga
-vesícula biliar
+vello púbico
+vientre
+voz
