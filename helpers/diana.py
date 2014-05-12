@@ -34,6 +34,8 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                     clause_types = row
                 elif i == 4:
                     grammatical_relations = row
+                elif i == 5:
+                    pos_agreement = row
                 i += 1  
                 if i > 7:
                     # now parse
@@ -55,6 +57,8 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                             self.clause_types[c_id] = clause_types[j].strip()
                         
                         grammatical_relation = grammatical_relations[j].strip()
+                        if "zero" in pos_agreement[j].strip():
+                            grammatical_relation = "zero-{0}".format(grammatical_relation)
                         word_order.append(grammatical_relation)
 
                     if len(word_order) > 0:
