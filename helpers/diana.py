@@ -36,7 +36,7 @@ class ExcelParser(poioapi.io.graf.BaseParser):
         self.clause_types = dict()
         self.last_id = -1
         with codecs.open(filepath, "r", "utf-8") as csvfile:
-            hinuq2 = unicode_csv_reader(csvfile, delimiter="\t")
+            hinuq2 = csv.reader(csvfile, delimiter="\t")
             i = 0
             for row in hinuq2:
                 if i == 2:
@@ -63,17 +63,24 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                             word_order = []
                             
                             # add new clause
-                            c_id = self._next_id()
+                            c_id = clause_id # self._next_id()
+                            if c_id in self.clauses:
+                                print("Error: duplicate clause ID: {0}".format(c_id))
+                                continue
                             self.clauses.append(c_id)
                             self.clause_types[c_id] = clause_types[j].strip()
                         
                         grammatical_relation = grammatical_relations[j].strip()
                         if "zero" in pos_agreement[j].strip():
                             grammatical_relation = "zero-{0}".format(grammatical_relation)
+                        if grammatical_relation == "say":
+                            grammatical_relation = "SAY"
                         word_order.append(grammatical_relation)
 
                     if len(word_order) > 0:
                         self.word_orders[c_id] = word_order
+                        #if len(word_order) == 1 and 'S' in word_order:
+                        #    print(clause_ids)
                     i = 0
 
     def _next_id(self):
@@ -92,7 +99,7 @@ class ExcelParser(poioapi.io.graf.BaseParser):
 
     def get_annotations_for_tier(self, tier, annotation_parent=None):
         if tier.name == "clause_id":
-            return [poioapi.io.graf.Annotation(i, v) for i, v in enumerate(self.clauses)]
+            return [poioapi.io.graf.Annotation(v, v) for i, v in enumerate(self.clauses)]
 
         elif tier.name == "clause_type":
             return [poioapi.io.graf.Annotation(self._next_id(), self.clause_types[annotation_parent.id])]
