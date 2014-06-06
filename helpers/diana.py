@@ -17,6 +17,17 @@ def from_excel(filepath):
     ag.graf = converter.graf
     return ag
 
+def unicode_csv_reader(unicode_csv_data, **kwargs):
+    # csv.py doesn't do Unicode; encode temporarily as UTF-8:
+    csv_reader = csv.reader(utf_8_encoder(unicode_csv_data), **kwargs)
+    for row in csv_reader:
+        # decode UTF-8 back to Unicode, cell by cell:
+        yield [unicode(cell, 'utf-8') for cell in row]
+
+def utf_8_encoder(unicode_csv_data):
+    for line in unicode_csv_data:
+        yield line.encode('utf-8')
+
 class ExcelParser(poioapi.io.graf.BaseParser):
 
     def __init__(self, filepath):
@@ -25,7 +36,7 @@ class ExcelParser(poioapi.io.graf.BaseParser):
         self.clause_types = dict()
         self.last_id = -1
         with codecs.open(filepath, "r", "utf-8") as csvfile:
-            hinuq2 = csv.reader(csvfile, delimiter='|')
+            hinuq2 = unicode_csv_reader(csvfile, delimiter="\t")
             i = 0
             for row in hinuq2:
                 if i == 2:
