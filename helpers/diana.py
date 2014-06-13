@@ -2,10 +2,16 @@
 
 import csv
 import codecs
+import collections
 
 import poioapi.io.graf
 import poioapi.annotationgraph
 import poioapi.data
+
+def WrongAnnotationCount(Exception): pass
+
+WordOrder = collections.namedtuple("WordOrder",
+    "clause_id word_order clause_type")
 
 def from_excel(filepath):
     ag = poioapi.annotationgraph.AnnotationGraph()
@@ -13,7 +19,8 @@ def from_excel(filepath):
     converter = poioapi.io.graf.GrAFConverter(parser)
     converter.parse()
     ag.tier_hierarchies = converter.tier_hierarchies
-    ag.structure_type_handler = poioapi.data.DataStructureType(ag.tier_hierarchies[0])
+    ag.structure_type_handler = poioapi.data.DataStructureType(
+        ag.tier_hierarchies[0])
     ag.graf = converter.graf
     return ag
 
@@ -27,6 +34,25 @@ def unicode_csv_reader(unicode_csv_data, **kwargs):
 def utf_8_encoder(unicode_csv_data):
     for line in unicode_csv_data:
         yield line.encode('utf-8')
+
+def word_orders(ag, search_terms = None, annotation_map = {}):
+    clause_unit_nodes = ag.nodes_for_tier("clause_id")
+    for parent_node in clause_unit_nodes:
+        word_order = []
+        clause_type = None
+        type_node = ag.nodes_for_tier("clause_type", parent_node)
+        if len(type_node) == 1:
+            clause_type = ag.annotation_value_for_node(type_node[0])
+        else:
+            raise WrongAnnotationCount(
+                "no clause type in clause unit {0}".format(parent_node.id))
+        for gramm_node in ag.nodes_for_tier("grammatical_relation", parent_node):
+            a_value = ag.annotation_value_for_node(gramm_node)
+            if search_terms and a_value in search_terms:
+                if a_value in annotation_map:
+                    a_value = annotation_map[a_value]
+                word_order.append(a_value)
+        yield WordOrder(parent_node.id, word_order, clause_type)
 
 class ExcelParser(poioapi.io.graf.BaseParser):
 
@@ -79,8 +105,7 @@ class ExcelParser(poioapi.io.graf.BaseParser):
 
                     if len(word_order) > 0:
                         self.word_orders[c_id] = word_order
-                        #if len(word_order) == 1 and 'S' in word_order:
-                        #    print(clause_ids)
+
                     i = 0
 
     def _next_id(self):
