@@ -13,9 +13,9 @@ def WrongAnnotationCount(Exception): pass
 WordOrder = collections.namedtuple("WordOrder",
     "clause_id word_order clause_type")
 
-def from_excel(filepath):
+def from_excel(filepath, skip_lines=[], tier_numbers=None):
     ag = poioapi.annotationgraph.AnnotationGraph()
-    parser = ExcelParser(filepath)
+    parser = ExcelParser(filepath, skip_lines, tier_numbers)
     converter = poioapi.io.graf.GrAFConverter(parser)
     converter.parse()
     ag.tier_hierarchies = converter.tier_hierarchies
@@ -56,7 +56,7 @@ def word_orders(ag, search_terms = None, annotation_map = {}):
 
 class ExcelParser(poioapi.io.graf.BaseParser):
 
-    def __init__(self, filepath):
+    def __init__(self, filepath, skip_lines=[], tier_numbers=None):
         self.word_orders = dict()
         self.clauses = list()
         self.clause_types = dict()
@@ -65,16 +65,19 @@ class ExcelParser(poioapi.io.graf.BaseParser):
             hinuq2 = csv.reader(csvfile, delimiter="\t")
             i = 0
             for row in hinuq2:
-                if i == 2:
+                if row[0] in skip_lines:
+                    continue
+
+                if i == tier_numbers["clause_id"]:
                     clause_ids = row
-                elif i == 3:
+                elif i == tier_numbers["clause_type"]:
                     clause_types = row
-                elif i == 4:
+                elif i == tier_numbers["grammatical_relation"]:
                     grammatical_relations = row
-                elif i == 5:
+                elif i == tier_numbers["pos_agreement"]:
                     pos_agreement = row
                 i += 1  
-                if i > 7:
+                if i > tier_numbers["last_line"]:
                     # now parse
                     word_order = []
                     c_id = None
