@@ -8,10 +8,10 @@ import poioapi.io.graf
 import poioapi.annotationgraph
 import poioapi.data
 
-def WrongAnnotationCount(Exception): pass
+class WrongAnnotationCount(Exception): pass
 
 WordOrder = collections.namedtuple("WordOrder",
-    "clause_id word_order clause_type")
+    "clause_id word_order clause_type agreement")
 
 def from_excel(filepath, skip_lines=[], tier_numbers=None):
     ag = poioapi.annotationgraph.AnnotationGraph()
@@ -35,10 +35,11 @@ def utf_8_encoder(unicode_csv_data):
     for line in unicode_csv_data:
         yield line.encode('utf-8')
 
-def word_orders(ag, search_terms = None, annotation_map = {}):
+def word_orders(ag, search_terms = None, annotation_map = {}, with_agreement = False):
     clause_unit_nodes = ag.nodes_for_tier("clause_id")
     for parent_node in clause_unit_nodes:
         word_order = []
+        agreement = []
         clause_type = None
         type_node = ag.nodes_for_tier("clause_type", parent_node)
         if len(type_node) == 1:
@@ -52,12 +53,23 @@ def word_orders(ag, search_terms = None, annotation_map = {}):
                 if a_value in annotation_map:
                     a_value = annotation_map[a_value]
                 word_order.append(a_value)
-        yield WordOrder(parent_node.id, word_order, clause_type)
+
+                if with_agreement:
+                    agr_nodes = ag.nodes_for_tier("agreement", gramm_node)
+                    if len(agr_nodes) != 1:
+                        print("no agreement annotation in clause unit {0} for grammatical relation '{1}'".format(parent_node.id, a_value))
+                    else:
+                        agr_node = ag.nodes_for_tier("agreement", gramm_node)[0]
+                        agr = ag.annotation_value_for_node(agr_node)
+                        agreement.append(agr)
+
+        yield WordOrder(parent_node.id, word_order, clause_type, agreement)
 
 class ExcelParser(poioapi.io.graf.BaseParser):
 
     def __init__(self, filepath, skip_lines=[], tier_numbers=None):
         self.word_orders = dict()
+        self.agreements = dict()
         self.clauses = list()
         self.clause_types = dict()
         self.last_id = -1
@@ -75,11 +87,12 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                 elif i == tier_numbers["grammatical_relation"]:
                     grammatical_relations = row
                 elif i == tier_numbers["pos_agreement"]:
-                    pos_agreement = row
+                    pos_agreements = row
                 i += 1  
                 if i > tier_numbers["last_line"]:
                     # now parse
                     word_order = []
+                    pos_agreement = []
                     c_id = None
                     prev_c_id = None
                     for j, clause_id in enumerate(clause_ids):
@@ -87,8 +100,7 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                         # new clause
                         if clause_id != "":
                             # add word order to previous clause
-                            if len(word_order) > 0:
-                                self.word_orders[c_id] = word_order
+                            self.word_orders[c_id] = word_order
                             word_order = []
                             
                             # add new clause
@@ -100,14 +112,17 @@ class ExcelParser(poioapi.io.graf.BaseParser):
                             self.clause_types[c_id] = clause_types[j].strip()
                         
                         grammatical_relation = grammatical_relations[j].strip()
-                        if "zero" in pos_agreement[j].strip():
-                            grammatical_relation = "zero-{0}".format(grammatical_relation)
-                        if grammatical_relation == "say":
-                            grammatical_relation = "SAY"
-                        word_order.append(grammatical_relation)
+                        if grammatical_relation:
+                            pos_agreement = pos_agreements[j].strip()
+                            if "zero" in pos_agreement:
+                                grammatical_relation = "zero-{0}".format(grammatical_relation)
+                            if grammatical_relation == "say":
+                                grammatical_relation = "SAY"
+                            gr_id = self._next_id()
+                            self.agreements[gr_id] = pos_agreement
+                            word_order.append((gr_id, grammatical_relation))
 
-                    if len(word_order) > 0:
-                        self.word_orders[c_id] = word_order
+                    self.word_orders[c_id] = word_order
 
                     i = 0
 
@@ -122,6 +137,8 @@ class ExcelParser(poioapi.io.graf.BaseParser):
         if tier.name == "clause_id":
             return [poioapi.io.graf.Tier("grammatical_relation"),
                     poioapi.io.graf.Tier("clause_type")]
+        elif tier.name == "grammatical_relation":
+            return [poioapi.io.graf.Tier("agreement")]
 
         return None
 
@@ -133,8 +150,12 @@ class ExcelParser(poioapi.io.graf.BaseParser):
             return [poioapi.io.graf.Annotation(self._next_id(), self.clause_types[annotation_parent.id])]
 
         elif tier.name == "grammatical_relation":
-            return [poioapi.io.graf.Annotation(self._next_id(), v)  for v in self.word_orders[annotation_parent.id]]
+            return [poioapi.io.graf.Annotation(gr_id, v) for gr_id, v in self.word_orders[annotation_parent.id]]
         
+        elif tier.name == "agreement":
+            if annotation_parent and self.agreements[annotation_parent.id]:
+                return [poioapi.io.graf.Annotation(self._next_id(), self.agreements[annotation_parent.id]) ]
+
         return []
 
     def tier_has_regions(self, tier):
