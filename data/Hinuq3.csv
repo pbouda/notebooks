@@ -27,7 +27,7 @@ XoddonBarun.004
 					#10								#11																																					
 					m								m.rs																																					
 						S	ADD		v.intr					A	P	v.tr																																		
-						zero-2	pro-2		y-2					zero-2	np-3																																			
+						zero-2	pro-2		y-2					zero-2	np-3	b-3																																		
 							she							you.sg	work																																			
 						hum	hum							hum	inanim																																			
 XoddonBarun.005																																																		
@@ -490,10 +490,10 @@ Mulla.003
 	hayłi	aƛa	zoqʼwen	seda	rekʼus,					[hago	beƛeł	ičiya]		qʼwiya	maduhalłi	zoqʼwen,	hesgozon	igotow	qizan	haqʼu,	ʕoloqanaw	qizan	haqʼu																											
 #187									#188				#189																																					
 m									sub				m																																					
-		LOC	COP		GEN					S	LOC	v.intr			S	COP			pred			RD																												
-		np-3			np-1					pro-1	np-3	o-1			np-r				np-hpl			np-hpl																												
+		LOC	COP		GEN	S				S	LOC	v.intr			S	COP			pred			RD																												
+		np-3			np-1	zero-2				pro-1	np-3	o-1			np-r				np-hpl			np-hpl																												
 		village			man					he	house				neighborhood				family			family																												
-		inanim			hum					hum	inanim				inanim				hum			hum																												
+		inanim			hum	hum				hum	inanim				inanim				hum			hum																												
 Mulla.004																																																		
 	hayło	rekʼus	baru	zoqʼwen	bercinaw,				kutakalda	bercinaw	baru	zoqʼwen.		hało	ʕoloqanaw	dibiraz	yetin	haw	aqili																															
 #190								#191					#192																																					
@@ -522,8 +522,8 @@ Mulla.007
 	hoboy	hayłu	derun	hayłoqor	ked	yaƛʼiyo	gom,		aqili	yaƛʼiyo	gom	hayłoqor.			san	run	hibayru,				kʼox	run,				łox	run																							
 #198								#199					#200					#201					#202																											
 m								m					m					m					m																											
-				ADD	S	v.intr			S	v.intr		ADD		A		v.tr	P		A	P		v.tr		A	P		v.tr																							
-				pro-1	np-2	y-2			np-2	y-2		pro-1		zero-1		r-5	zero-5		zero-1	zero-5		r-5		zero-1	zero-5		r-5																							
+				ADD	S	v.intr			S	v.intr		ADD		A	P	v.tr			A	P		v.tr		A	P		v.tr																							
+				pro-1	np-2	y-2			np-2	y-2		pro-1		zero-1	zero-5	r-5			zero-1	zero-5		r-5		zero-1	zero-5		r-5																							
 				he	girl				woman			he																																						
 				hum	hum				hum			hum		hum					hum	inanim				hum	inanim																									
 Mulla.008																																																		
@@ -560,7 +560,7 @@ m							m.rs													m.rs
 			hum						inanim												hum																													
 Mulla.012																																																		
 	de	oxan	idusƛen	ʔeƛin,					hezo	de	roƛoku	neši	aqʼanƛen,					acmoqo	daqʼni	ričiranƛen	ʔeƛin,			hago	adarekʼoƛen,	adarekʼoƛen	ʔeƛin																							
-#216								#217								#218						#228																												
+#216								#217								#218						#1903																												
 m.rs								m.rs								m.rs						m.rs																												
 	S	v.intr	G							S		TIME	v.intr				A	G	P	v.tr			A	P	v.tr																									
 	pro-1	o-1	adv							pro-1		adv	o-1				zero-1	np-4	np-5	r-5			zero-2	pro-1	noagr																									
@@ -586,7 +586,7 @@ Mulla.015
 		hibayłitow	[hune	ruxno],			ašin	hago	dibira,		hayłoy	šaƛube	rikʼno,		hałoy	ižey	riqʼirno	hayłuqor,		hoboy	hadu	yezen	hayłoƛʼor,		aqilay	ʔeƛin																								
 #226					#227					#228				#229					#230					#231																										
 sub					m					m				m					m					m																										
-	A		P	v.tr		EXP	v.aff		STIM		A	P	v.tr		A	P	v.tr	G			S	v.intr	G		aqilay	say																								
+	A		P	v.tr		EXP	v.aff		STIM		A	P	v.tr		A	P	v.tr	G			S	v.intr	G		A	SAY																								
 	zero-2		np-5	r-5		zero-2	o-1		np-1.def		pro-1	np-nhpl	r-nhpl		pro-1	np-5	r-5	pro-2			pro-2	y-2	pro-1		np-2																									
 			way						mullah		he	whistle			he	eye		she			she		he		woman																									
 	hum		inanim			hum			hum		hum	inanim			hum	inanim		hum			hum		hum		hum																									
@@ -706,7 +706,7 @@ Mulla.030
 	amma	hago	iƛʼišmeƛen	ʔeƛin,		hoboži	de	detow	heču-hes	iƛʼa	aqʼoƛen	ʔeƛin,		zek	wyxodnoyʼ	gołƛen	ʔeƛin,		iƛʼa	aqʼo	deƛen	ʔeƛin																												
 #283					#284								#285					#286																																
 m.rs					m.rs								m.rs					m.rs																																
-		S	v.intr				S			v.intr				TIME	S				v.intr		S																													
+		S	v.intr				S			v.intr				TIME	S	COP			v.intr		S																													
 		pro-1	o-1				pro-1			o-1				adv	np-5				o-1		pro-1																													
 		he					I								holiday						I																													
 		hum					hum								inanim						hum																													
@@ -808,12 +808,12 @@ m.rs								m.rs					m.rs
 	hum	hum							hum					anim																																				
 Mulla.043																																																		
 	hezo	hado,	[hibayru	goła]				[toƛno	hałoqor],			[tʼotʼerno	mecxerno]		hado	hoboži	hayiš	aƛado	iƛʼiyo																															
-#327					#328					#329				#330																																				
-sub					sub					sub				m																																				
-		RD				A	P	v.tr	BEN		A	v.tr	P		S			G	v.intr																															
-		pro-1				zero-1	zero-3	noagr	pro-1		zero-1	noagr	np-3		pro-1			np-3	o-1																															
-		he							he				money		he			village																																
-		hum				hum	anim		hum		hum		inanim		hum			inanim																																
+					#328					#329				#330																																				
+					sub					sub				m																																				
+						A	P	v.tr	BEN		A	v.tr	P		S			G	v.intr																															
+						zero-1	zero-3	noagr	pro-1		zero-1	noagr	np-3		pro-1			np-3	o-1																															
+									he				money		he			village																																
+						hum	anim		hum		hum		inanim		hum			inanim																																
 Mulla.044																																																		
 			[bižin	haw	hokon]				hezoqʼimur	hado	iƛʼin,		seda	zamanał	bakʼarzi	biqno	hayłoder	ahlu																																
 #331								#332				#333																																						
@@ -1040,7 +1040,7 @@ sub								sub					sub					sub				m
 	hum					inanim			hum		inanim			hum		inanim			hum	inanim						hum																								
 Zurnach.021																																																		
 		somodi	ɣweden	qeširno		marčʼikʼułedo	qʼiliqan	aqʼeseƛ	neteqen	aldoɣo	zo	aqʼesme	seda	aƛar																																				
-#404					#405																																													
+#1904					#405																																													
 sub					m																																													
 			S	v.intr		TIME	S	v.intr						G																																				
 			np-5	noagr		adv	np-1	o-1						np-3																																				
@@ -1090,7 +1090,7 @@ Zurnach.027
 		ixno			bogoles	kakno	run,			otʼanƛen	goła			rekʼuzo	rores	haraƛʼ	toqišeƛ																																	
 #415			#416					#417				#418																																						
 sub			sub					sub				m																																						
-	S	v.intr		A		P	v.tr		S	v.intr			EXP	GEN	GEN	P	v.aff																																	
+	S	v.intr		A		P	v.tr		S	v.intr			EXP	GEN	GEN	STIM	v.aff																																	
 	zero-1	o-1		zero-1		np-5	r-5		zero-1	o-1			zero-1	np-1	np-3	np-3	noagr																																	
 	drummer			drummer		prayer			drummer				drummer	man	foot	tone																																		
 	hum			hum		inanim			hum				hum	hum	inanim	inanim																																		
@@ -1200,10 +1200,10 @@ m							sub
 						hum		hum				inanim																																						
 Zurnach.041																																																		
 		hezo	bičʼčʼi	riqišeƛ	uži	ʕadataw	gosmełi,	hezogon	ʔeƛišeƛ		ʕadada	zoqʼwen	gom		miskinaw	rekʼuzo	užiqo	bečedaw	kedes	roƛʼi	kezibiqnoƛen																													
-#442										#443				#444																																				
-m										m.rs				sub.rs																																				
-	A								SAY		pred	COP				GEN	G		GEN	S	v.intr																													
-	zero-1										adv					np-1	np-1		np-2	np-3	b-3																													
+#442														#444																																				
+m														sub.rs																																				
+	A								SAY							GEN	G		GEN	S	v.intr																													
+	zero-1															np-1	np-1		np-2	np-3	b-3																													
 	drummer															man	boy		girl	love																														
 	hum															hum	hum		hum	inanim																														
 Zurnach.042																																																		
@@ -1259,8 +1259,8 @@ Zurnach.048
 #460																																																		
 m.rs																																																		
 		v.aff	EXP	STIM																																														
-			pro-1	pro-hpl																																														
-		b-hpl	I	you.pl																																														
+		b-hpl	pro-1	pro-hpl																																														
+			I	you.pl																																														
 			hum	hum																																														
 Zurnach.049																																																		
 	[hesqen	žo	reqʼišme]	[biłi	hadbe	bičiƛʼo]			[kedƛʼor	łiƛʼin	bižin]		qʼiliqani	ʔeƛišeƛ																																				
@@ -1315,7 +1315,7 @@ Zurnach.055
 #473			#474					#475					#476							#477					#478											#479														
 sub			sub					m					m.rs							m.rs					m.rs											m.rs														
 	S	v.intr		A	GEN	P	v.tr		A		P	v.tr		A	TIME	BEN	P		v.tr		A	BEN	P	v.tr		GEN		pred	COP								A	P	v.tr											
-	zero-2	y-2		zero-2	np-1	np-5	r-5		zero-2		np-5	r-5		zero-2	adv	pro-1	np-3				zero-2	zero-1	np-3	noagr		zero-2		adv									np-1	pro-2	y-2											
+	zero-2	y-2		zero-2	np-1	np-5	r-5		zero-2		np-5	r-5		zero-2	adv	pro-1	np-3		noagr		zero-2	zero-1	np-3	noagr		zero-2		adv									np-1	pro-2	y-2											
 	she			she	Allah	name			she		request			I		you.sg	gold				I	you.sg	happiness			I											father	I												
 	hum			hum	hum	inanim			hum		inanim			hum		hum	inanim				hum	hum	inanim			hum											hum	hum												
 Zurnach.056																																																		
@@ -1370,7 +1370,7 @@ Zurnach.062
 		šahramos	hes	kilometroče	xecenos			sedaɣo	huni	geƛ	riłi	basriyaw	ɣeme	rikeseƛ,		haydo	iƛʼa	hałosno	pikru	biqišeƛ,			akełoƛʼo		moƛay		uxa	utirišeƛ																						
 #507						#508									#509						#510			#511																										
 sub						m									m						sub			m																										
-	A	GEN		P	v.tr		EXP		LOC				P	v.aff				GEN	S	v.intr		S	v.intr		A	P		v.tr																						
+	A	GEN		P	v.tr		EXP		LOC				STIM	v.aff				GEN	S	v.intr		S	v.intr		A	P		v.tr																						
 	zero-1	np-3		np-3	noagr		zero-1		np-5				np-5	r-5				pro-1	np-3	b-3		zero-1	o-1		np-4	zero-1		o-1																						
 	drummer	way		kilometer			drummer		way				mill					he	thought			drummer			sleep	drummer																								
 	hum	inanim		inanim			hum		inanim				inanim					hum	inanim			hum			inanim	hum																								
@@ -1627,7 +1627,7 @@ Zurnach.094
 #603						#604					#605																																							
 sub						m					sub																																							
 	A			P	v.tr		P	v.tr	A	BEN		S			G	v.intr																																		
-	zero-1			np-3			np-3	noagr	np-1	np-1		zero-1			adv	o-1																																		
+	zero-1			np-3	b-3		np-3	noagr	np-1	np-1		zero-1			adv	o-1																																		
 	drummer			voice			greeting		drummer	zurnaplayer		drummer																																						
 	hum			inanim			inanim		hum	hum		hum																																						
 Zurnach.095																																																		
@@ -1667,7 +1667,7 @@ Zurnach.099
 #617				#618				#619				#620					#621																																	
 sub				sub				sub				sub					m																																	
 	S	G	v.intr		S	OTHER	v.intr		A	P	v.tr		A	G	P	v.tr				v.intr	S																													
-	np-nhpl	adv	noagr		zero-1	np-nhpl	o-1		zero-1	np-4	y-4		zero-1	np-4	np-5	r-5					np-1																													
+	np-nhpl	adv	noagr		zero-1	np-nhpl	o-1		zero-1	np-4	y-4		zero-1	np-4	np-5	r-5				o-1	np-1																													
 	eyes				zurnaplayer	eyes			zurnaplayer	water			zurnaplayer	mouth	water						zurnaplayer																													
 	inanim				hum	inanim			hum	inanim			hum	inanim	inanim						hum																													
 Zurnach.100																																																		
@@ -1706,7 +1706,7 @@ Zurnach.104
 	[buho	goła]	qʼutʼimoƛʼo	reqʼon	qʼiliqan	ežišłun	rikʼziuseƛ,		hayłoz	łeno	ɣurušno	yašišeƛ																																						
 #648								#649																																										
 sub								m																																										
-					S	v.intr			EXP		P	v.aff																																						
+					S	v.intr			EXP		STIM	v.aff																																						
 					np-1	o-1			pro-1		np-4	y-4																																						
 					drummer				he		ruble																																							
 					hum				hum		inanim																																							
@@ -1922,7 +1922,7 @@ besdal.008
 	hayłiš	hadu	kekirno	hazey,		baruy	ʔeƛin	mačexay:				neter	hadu	yičirho,				yižo				xunƛʼor	yaqʼeroƛen,	ʔeƛin																										
 #713					#714					#715																																								
 m					m					m.rs																																								
-		P	V	A		A	say	RD			A		P	v.tr																																				
+		P	v.tr	A		A	say	RD			A		P	v.tr																																				
 		pro-2	noagr	pro-hpl		np-2		np-s			zero-1		pro-2	y-2																																				
 		she		they		wife		stepmother					she																																					
 		hum		hum		hum		hum			hum		hum																																					
@@ -2659,7 +2659,7 @@ otl'no_essu.017
 #912										#913									#914																															
 m										m									m																															
 		TIME	GEN	A	v.tr				P			v.intr		S						v.aff		EXP	STIM	LOC																										
-		np-3	np-1	np-2	noagr				np-2			y-2		np-2.def								np-2.def	pro-2	adv																										
+		np-3	np-1	np-2	noagr				np-2			y-2		np-2.def						y-2		np-2.def	pro-2	adv																										
 		time	father	wife					witch					witch								witch	she																											
 		inanim	hum	hum					hum					hum								hum	hum																											
 otl'no_essu.018																																																		
@@ -2946,7 +2946,7 @@ Nasrudin_Maga.003
 	Pоħeyalaw	ʔeserno,		me	nido	iƛʼiyoƛen																																												
 #984			#985																																															
 m			m.rs																																															
-	A	ASK		S	G	v.intr																																												
+	A	SAY		S	G	v.intr																																												
 	np-1			pro-1	adv	o-1																																												
 	Pohelayaw			you.sg																																														
 	hum			hum																																														
@@ -3010,8 +3010,8 @@ Nasrudin_Maga.011
 	zeri	ʔeƛiyo,		hibay	rekʼuƛʼo	ažeyho	hibay	aqʼweƛ	goł,		aqʼwe	mesedliš	mecxer	boƛekʼo,		hibay	mecxer	qaħłiqo	hayłuy	boƛekʼo,			buqmoƛ	wed	run																									
 #1009			#1010							#1011					#1012						#1013																													
 m			m.rs							m.rs					m.rs						m																													
-	A	SAY			OTHER	LOC		S	COP		A		P	v.tr			P	TIME	A	v.tr		A	LOC	P	r-5																									
-	np-3				np-1	np-4		np-3			np-3		np-3	b-3			np-3	adv	pro-3	b-3		zero-2	np-3	np-5																										
+	A	SAY			OTHER	LOC		S	COP		A		P	v.tr			P	TIME	A	v.tr		A	LOC	P	v.tr																									
+	np-3				np-1	np-4		np-3			np-3		np-3	b-3			np-3	adv	pro-3	b-3		zero-2	np-3	np-5	r-5																									
 	fox				man	tree		mouse			mouse		money				money		it			mouse	sun	thing																										
 	anim				hum	inanim		anim			anim		inanim				inanim		inanim			inanim	inanim	inanim																										
 Nasrudin_Maga.012																																																		
@@ -3051,9 +3051,9 @@ m.rs								m.rs
 #1024						#1025						#1026						#1027					#1028				#1029																							
 m.rs						sub.rs						sub.rs						sub.rs					sub.rs				m.rs																							
 	GEN	EXP	v.aff		STIM		A		SOURCE	P	v.tr		A		BEN	P	v.tr		A	P	v.tr	GEN		A	P	v.tr		A	P	v.tr																				
-	np-1	np-2	r-5		zero-5		zero-imp		np-3.def	np-nhpl			zero-imp						zero-imp	np-3	b-3			zero-imp	zero-3	b-3		np-1	np-3	noagr																				
-	king	girl							dog	eyes										light					money			king	money																					
-	hum	hum			inanim		hum		anim	inanim									hum	inanim				hum	inanim			hum	inanim																					
+	np-1	np-2	r-5		zero-5		zero-imp		np-3.def	np-nhpl	r-nhpl		zero-imp		np-2.def	np-nhpl	noagr		zero-imp	np-3	b-3			zero-imp	zero-3	b-3		np-1	np-3	noagr																				
+	king	girl							dog	eyes					girl	eyes				light					money			king	money																					
+	hum	hum			inanim		hum		anim	inanim			hum		hum	inanim			hum	inanim				hum	inanim			hum	inanim																					
 Nasrudin_Maga.017																																																		
 heƛʼe,	debe	ʔecʼendiyu	xabar	seƛen	ʔeƛin,		zey	ʔeƛin,		batʼałi	den	gaqi	gom																																					
 						#1030			#1031																																									
@@ -3080,12 +3080,12 @@ m.rs					m				m.rs
 	anim	anim				anim	anim					inanim					inanim																																	
 Nasrudin_Maga.020																																																		
 			hibay	akud	ričʼin	hibayłi	łe	roƛex,			hoboži	hibay	hibaw	łen	ričʼin,			hibayš	mecxer	biɣa	baqʼeƛen	ʔeƛin,			hayłu	aƛa	debez	mecxer	neƛƛen	ʔeƛin																				
-#1037									#1038							#1039							#1040																											
-sub									sub.rs							m.rs							m.rs																											
+#1037						#1866			#1038							#1039							#1040																											
+sub.rs						m.rs			sub.rs							m.rs							m.rs																											
 	A	P		INS	v.tr		S	v.intr		A				P	v.tr		A		P		v.tr			A		LOC	BEN	P	v.tr																					
-	zero-imp	zero-imp			r-5		np-5	r-5		zero-imp				np-5.def	r-5		zero-imp		np-3		b-3			zero-imp		np-3.def	pro-1	np-3	noagr																					
-							water							water					money							village	you.sg	money																						
-	hum	inanim					inanim			hum				inanim			hum		inanim					hum		inanim	hum	inanim																						
+	zero-imp	zero-imp		np-4	r-5		np-5	r-5		zero-imp				np-5.def	r-5		zero-imp		np-3		b-3			zero-imp		np-3.def	pro-1	np-3	noagr																					
+				spade			water							water					money							village	you.sg	money																						
+	hum	inanim		inanim			inanim			hum				inanim			hum		inanim					hum		inanim	hum	inanim																						
 		Nasrudin_Maga.021																																																
 		hoboži	hibawno	sadaq	xabarno	ʔesen,		hasaqos	roxen	hagbe,		hoboži	Malla	Nasrudin	ixan	ixno,			iƛʼin	hay	requƛʼor																													
 #1041							#1042				#1043						#1044																																	
@@ -3162,9 +3162,9 @@ Nasrudin_Maga.030
 	hagzey	ʔeƛin,					neƛanƛen	ʔeƛin,			iƛʼanno	iƛʼin,		hałoy	hoboži	zey	ʔeƛiya	hibayłu	pulanaw	moča	aku	caƛin.			aku	caƛiyorun		roƛexno	łe																					
 #1075			#1076						#1077				#1078										#1079				#1080																							
 m			m.rs						sub				m										sub				m																							
-	A	SAY		A	BEN	P	v.tr			S	v.intr			A						LOC	P	v.tr		A	P	v.tr																								
-	pro-hpl			zero-hpl	zero-1	zero-3	noagr			zero-1	o-1			pro-1						np-3.def	np-4	noagr		zero-1	np-4	noagr		v.intr	S																					
-	they			we		money								he						place	spade				spade			r-5	np-5																					
+	A	SAY		A	BEN	P	v.tr			S	v.intr			A						LOC	P	v.tr		A	P	v.tr		v.intr	S																					
+	pro-hpl			zero-hpl	zero-1	zero-3	noagr			zero-1	o-1			pro-1						np-3.def	np-4	noagr		zero-1	np-4	noagr		r-5	np-5																					
+	they			we		money								he						place	spade				spade				water																					
 	hum			hum	hum	inanim				hum				hum						inanim	inanim			mulnas	inanim				inanim																					
 Nasrudin_Maga.031																																																		
 			razin	biqno,		hoboži	hału	xalqʼilay,	hałoz	mecxerno	toƛno,			guluƛʼo	haw	mušukʼi	mecxerosno	gorno,			iƛʼiyo	zoqʼen	hoboži																											
@@ -3194,8 +3194,8 @@ Nasrudin_Maga.034
 		hibayru	ɣemeƛʼo	iƛʼiš,		ɣemeƛʼo	zerun,	bocʼen,	zen	baqʼes																																								
 #1089					#1090																																													
 m.rs					m.rs																																													
-	S		G	o-1		G	S			v.intr																																								
-	zero-1		np-5.def	v.intr		np-5	np-3			b-3																																								
+	S		G	v.intr		G	S			v.intr																																								
+	zero-1		np-5.def	o-1		np-5	np-3			b-3																																								
 			mill			mill	fox																																											
 	hum		inanim			inanim	anim																																											
 Nasrudin_Maga.035																																																		
@@ -3211,23 +3211,23 @@ Nasrudin_Maga.036
 #1093					#1094				#1095					#1096								#1097																												
 m.rs					m.rs				m.rs					m.rs								m.rs																												
 	A		P	v.tr		A	P	v.tr			LOC	S	COP						P	A	v.tr			STIM	EXP	v.aff																								
-	pro-nhpl		np-3	noagr		pro-1	zero-3				np-5	pro-1							np-5.def	pro-1	r-5			np-3	pro-1	b-3																								
-	they		story			I	story	noagr			shelf	I							thing	I				money	I																									
+	pro-nhpl		np-3	noagr		pro-1	zero-3	noagr			np-5	pro-1							np-5.def	pro-1	r-5			np-3	pro-1	b-3																								
+	they		story			I	story				shelf	I							thing	I				money	I																									
 	anim		inanim			hum	inanim				inanim	mulnas							inanim	hum				inanim	hum																									
 Nasrudin_Maga.037																																																		
 	hoboži	hado	Pʼaħelaw	iƛʼin	hayr	ɣemeƛʼor,			?	regi	hayłodergon	reži	čʼen	gorno,			ƛʼere	reɣwaƛʼorno	ixno																															
 #1098							#1099								#1100																																			
 m							sub								m																																			
 			S	v.intr		G		A					P	v.tr		S		G	v.intr																															
-			np-1.def	o-1		np-5		zero-1								zero-1		np-5	o-1																															
-			Pohelayaw			mill												shelf																																
-			hum			inanim		hum								hum		inanim																																
+			np-1.def	o-1		np-5		zero-1					np-5	noagr		zero-1		np-5	o-1																															
+			Pohelayaw			mill							fire					shelf																																
+			hum			inanim		hum					inanim			hum		inanim																																
 Nasrudin_Maga.038																																																		
 		hoboži	qʼidin	ičin,				toqerno,			uqiłno,				toqerno	ičin	zoqʼen																																	
 #1101					#1102				#1103			#1104																																						
 sub					sub				sub			m																																						
 	S			v.intr		A	P	v.tr		S	v.intr		A	P		v.tr																																		
-	zero-1			o-1		zero-1	zero-nhpl	noagr		zero-1			zero-1	zero-nhpl		noagr																																		
+	zero-1			o-1		zero-1	zero-nhpl	noagr		zero-1	o-1		zero-1	zero-nhpl		noagr																																		
 																																																		
 	hum					hum				hum			hum																																					
 Nasrudin_Maga.039																																																		
@@ -3251,8 +3251,8 @@ se	riqoƛen	ʔeƛin,				reqʼime,			hibadiš	hibayłu	ɣodƛʼo	xabarno	ʔesen,	
 			#1109				#1110							#1111				#1112							#1113																									
 			m.rs				sub.rs							sub.rs				sub.rs							sub.rs																									
 				EXP	STIM	v.aff		A			TIME	P	v.tr		S		v.intr		A		P	v.tr				A	P	v.tr																						
-				zero-imp	zero-5	r-5		zero-nhpl			np-5.def	np-3			zero-1		o-1		zero-1		np-3.def	b-3				zero-1	np-3	b-3																						
-								animals			day	story	noagr								mouse						money																							
+				zero-imp	zero-5	r-5		zero-nhpl			np-5.def	np-3	noagr		zero-1		o-1		zero-1		np-3.def	b-3				zero-1	np-3	b-3																						
+								animals			day	story									mouse						money																							
 				anim	inanim			anim			inanim	inanim			hum				hum		anim					hum	inanim																							
 Nasrudin_Maga.042																																																		
 	hoboži	hibaw	wedno	gosme		den	ƛexwesƛen	ʔeƛin																																										
@@ -3266,14 +3266,14 @@ Nasrudin_Maga.043
 	ze,	hoboži	zey	ʔeserho	hayłu	bocʼqo,	bocʼ,	debe	se	ħal																																								
 #1116																																																		
 m																																																		
-	LD		A	ASK		ADD																																												
+	LD		A	SAY		ADD																																												
 	np-3		np-3			np-3.def																																												
 	bear		bear			wolf																																												
 	anim		anim			anim																																												
 Nasrudin_Maga.044																																																		
 sečoƛen	ʔeƛin,			iƛʼanno	iƛʼin,		łuƛa	rekʼun	aqʼen,			hibaw	očordiyu	ɣwen	buherno,			hayłus	ižeyben	ruxno																														
-		#1117								#1118						#1119																																		
-		sub.rs								sub.rs						sub.rs																																		
+		#1117				#1868				#1118						#1119																																		
+		sub.rs				sub.rs				sub.rs						sub.rs																																		
 			S	v.intr				S	v.intr		A			P	v.tr		A	GEN	P	v.tr																														
 			zero-1	o-1				np-1	o-1		zero-1			np-3.def	b-3		zero-1	pro-3	np-nhpl	r-nhpl																														
 								man						dog				it	eyes																															
@@ -3336,7 +3336,7 @@ m				m.rs
 	anim		anim			anim																																												
 Nasrudin_Maga.052																																																		
 	ixno	ze,			ezeyƛʼo,			ašin	Malla	Nasrudin																																								
-#1139			#			#1140																																												
+#1139			#1900			#1140																																												
 m			sub			m																																												
 	v.intr	S		S	v.intr		EXP	v.aff		STIM																																								
 	o-1	np-3		zero-1	o-1		zero-3	o-1		np-1																																								
@@ -3410,7 +3410,7 @@ Sakinat.tale.008
 	hes	zonde	bercinaw	užin	zoqʼen,		hoboy	bercinaw	uži	zoqʼen,		xalqʼilay	ʔeserno		me	ni	zoqʼeyƛen	ʔeƛin?																																
 #1165						#1166					#1167			#1168																																				
 m						m					m			m.rs																																				
-		LOC		S	COP				S	COP		A	ASK		S	LOC	COP																																	
+		LOC		S	COP				S	COP		A	SAY		S	LOC	COP																																	
 		pro-2		np-1					np-1			np-hpl			pro-2	adv																																		
 		refl		boy					boy			people			you.sg																																			
 		hum		hum					hum			hum			hum																																			
@@ -3435,7 +3435,7 @@ Sakinat.tale.011
 #1173						#1174						#1175				#1176																																		
 m.rs						sub.rs						sub.rs				m.rs																																		
 		v.intr		S	GEN			S		G	v.intr		S	v.intr			S	v.intr																																
-		o-1		np-1	pro-2			np-1.def		np-5			zero-1	noagr			zero-1	o-1																																
+		o-1		np-1	pro-2			np-1.def		np-5	o-1		zero-1	noagr			zero-1	o-1																																
 				boy	I			father		sky																																								
 				hum	hum			hum		inanim			hum				hum																																	
 Sakinat.tale.012																																																		
@@ -3603,7 +3603,7 @@ Zhanat.tale.006
 #1234					#1235				#1236				#1237																																					
 sub					m				m				m																																					
 		A	P	v.tr		S		v.intr		S	v.intr					S	v.intr	G		OTHER																														
-		np-3	zero-1	o-1		np-2				zero-2	y-2					np-2.def	y-2	np-5		np-1.def																														
+		np-3	zero-1	o-1		np-2		y-2		zero-2	y-2					np-2.def	y-2	np-5		np-1.def																														
 		goose				girl										girl		forest		boy																														
 		anim	hum			hum				hum						hum		inanim		hum																														
 Zhanat.tale.007																																																		
@@ -3650,9 +3650,9 @@ Zhanat.tale.012
 		xexłiƛʼo	wedno	rekirno	hałos,			hag	ročno	rekirno			užin	uxno,		ked	yoxen,			idudo	yoxen	begommoƛʼo																												
 #1254						#1255					#1256				#1257			#1258																																
 sub						sub					sub				m			m																																
-	A	MANNER	P	v.tr	GEN		A		np-5.def	v.tr		A	P	v.tr		S	v.intr		S	G	v.intr	MANNER																												
-	zero-2	adv	np-5	r-5	pro-1		zero-2		sieve	r-5		zero-2		o-1		np-2	y-2		zero-2	adv	y-2	adv																												
-			thing		he											girl																																		
+	A	MANNER	P	v.tr	GEN		A		P 	v.tr		A	P	v.tr		S	v.intr		S	G	v.intr	MANNER																												
+	zero-2	adv	np-5	r-5	pro-1		zero-2		np-5.def	r-5		zero-2		o-1		np-2	y-2		zero-2	adv	y-2	adv																												
+			thing		he				sieve							girl																																		
 	hum		inanim		hum		hum		inanim			hum				hum			hum																															
 Zhanat.tale.013																																																		
 		hezogozon	boƛo	huni	kezibiqno	bocʼe,		hoboy	hałuy	ʔeƛin,		meži	de	bacʼanƛen	ʔeƛin,		dečetow	begi	xexbe	mežuqos	diž	xu	rašiƛen	ʔeƛin,	axir																									
@@ -3672,15 +3672,15 @@ m						sub				m						m.rs									sub
 		hum					hum				hum	hum					hum									hum	hum																							
 Zhanat.tale.015																																																		
 	hibału	užii	rokʼe	retʼerišƛen	ʔeƛin	iyo	di,	hoboži	obuygozon	ʔeƛin,		iqo	zon	hado	ʔeli	uži	iɣno				kura	aqʼeƛen	ʔeƛin																											
-#1268											#1269							#1270																																
-m.rs											sub.rs							m.rs																																
+#1268							#1867				#1269							#1270																																
+m.rs							m				sub.rs							m.rs																																
 		A	P	v.tr					A	SAY					A	P	v.tr		A	P	v.tr																													
 		np-1.def	np-5	r-5					np-1						pro-hpl	np-1	o-1		zero-hpl	zero-1	o-1																													
 		boy	heart						father						we	boy			parents																															
 		hum	inanim						hum						hum	hum			hum	hum																														
 Zhanat.tale.016																																																		
 	baruygozon	ʔeƛin,				nido	kuran,				iɣno				geƛedo	kuran	soraqo	ƛʼiyo																																
-#1271			#1272					#1273				#1273																																						
+#1271			#1272					#1273				#1905																																						
 m			m.rs					sub.rs				m.rs																																						
 	A	SAY		A	P	G	v.tr		A	P	v.tr		A	P	G	v.tr		G																																
 	np-2			zero-hpl	zero-1	adv	noagr		zero-hpl	zero-1	o-1		zero-hpl	zero-1	adv	noagr		adv																																
@@ -3691,7 +3691,7 @@ Zhanat.tale.017
 #1274							#1275							#1276					#1277							#1278																								
 m.rs							m.rs							sub.rs					sub							m																								
 	A	P			v.tr			EXP	STIM		v.aff				A	P		v.tr			G	v.intr			S		A		v.tr	P																				
-	zero-hpl	zero-1			noagr			zero-hpl	pro-1		o-1				zero-hpl	zero-1		noagr			np-4	o-1			np-1.def		np-3			zero-1																				
+	zero-hpl	zero-1			noagr			zero-hpl	pro-1		o-1				zero-hpl	zero-1		noagr			np-4	o-1			np-1.def		np-3		o-1	zero-1																				
 	parents							parents	you.sg						parents						river				boy		wolf																							
 	hum	hum						hum	hum						hum	hum					inanim				hum		anim			hum																				
 q'onon.essnibe.001																																																		
@@ -3754,8 +3754,8 @@ q'onon.essnibe.008
 	hoboy	hibayiš	hazey	ʔeƛin		hoboy	ʔeli	deru	aƛado	biƛʼanƛen	ʔeƛin,			hibayiš	hoboy	toqo	zoqʼen	gurube	bocʼzas,	žoylas,			hoboži	hibayiš	hezodoy	deru	boxan,			had	derutow	wed	ruwanƛen	ʔeƛin			hibay	bičin												
 #1294					#1295							#1296									#1297							#1298							#1299															
 m					m.rs							m									m.rs							m.rs							m															
-			A	SAY		TIME	S	OTHER	G	v.intr			EXP			v.aff		STIM	GEN			S	TIME						A		OTHER	P	v.tr			S		v.intr												
-			pro-hpl			adv	pro-hpl	adv	np-3	b-hpl			zero-hpl			noagr		np-nhpl	np-nhpl			zero-hpl	adv			OTHER	v.intr		zero-hpl		adv	np-5.def	r-5			zero-hpl		b-nhpl												
+			A	SAY		TIME	S	OTHER	G	v.intr			EXP			v.aff		STIM	GEN			S	TIME				v.intr		A		OTHER	P	v.tr			S		v.intr												
+			pro-hpl			adv	pro-hpl	adv	np-3	b-hpl			zero-hpl			noagr		np-nhpl	np-nhpl			zero-hpl	adv			OTHER	b-hpl		zero-hpl		adv	np-5.def	r-5			zero-hpl		b-nhpl												
 			they				we		village										wolf													matter																		
 			hum				hum		inanim				hum					inanim	anim			hum							hum			inanim				hum														
 q'onon.essnibe.009																																																		
@@ -3763,7 +3763,7 @@ q'onon.essnibe.009
 #1300								#1301						#1302																																				
 m								m						m																																				
 			G	GEN	S	COP				LOC	G	v.intr	S		S	G		v.intr																																
-										np-5	np-4	b-hpl	pro-hpl		zero-hpl	adv																																		
+										np-5	np-4	b-hpl	pro-hpl		zero-hpl	adv		b-hpl																																
 										forest	farm		they																																					
 										inanim	inanim		hum		hum																																			
 q'onon.essnibe.010																																																		
@@ -3786,7 +3786,7 @@ q'onon.essnibe.012
 	haw	geƛ	baqʼeyƛʼor			biƛʼin,		hezo	hadbegozon	ƛʼeredo	bixno			haybito	boxen,			hezodoy	keziiqno	hes	rekʼu,		hado	zoqʼen	čeqižas	rekʼu																								
 #1308				#1309			#1310					#1311				#1312						#1313																												
 sub				m			m					m				m						m																												
-	S	G	v.intr		S	v-intr			S	G	v.intr		S		v.intr		EXP		v.aff		STIM		S	COP	GEN	pred																								
+	S	G	v.intr		S	v.intr			S	G	v.intr		S		v.intr		EXP		v.aff		STIM		S	COP	GEN	pred																								
 	pro-3	adv	b-3		zero-hpl	b-hpl			pro-hpl	adv	b-hpl		zero-hpl		b-hpl		zero-hpl		0-1		pro-1		pro-1		np-5	np-1																								
 	it								they												man		he		forest	man																								
 	anim				hum				hum				hum				hum				hum		hum		inanim	hum																								
@@ -3794,7 +3794,7 @@ q'onon.essnibe.013
 		hezodoy	hibayiš	hayłoqo	ʔeserno,			nibito	hadi	aƛado	biƛʼiƛʼos	goł,	ʔeli	bižo	aƛadoƛen	ʔeƛin																																		
 #1314						#1315																																												
 m						m.rs																																												
-	A			ADD	ASK		S			G	v.intr																																							
+	A			ADD	SAY		S			G	v.intr																																							
 	zero-hpl			pro-1			zero-hpl			np-3	b-hpl																																							
 				he						village																																								
 	hum			hum			hum			inanim																																								
@@ -3811,9 +3811,9 @@ q'onon.essnibe.015
 #1320					#1321				#1322			#1323						#1324									#1325																							
 m					m				sub			m						sub									m																							
 	GEN		S	COP		S		v.intr		S	v.intr				S	v.intr				S	v.intr							S		G	v.intr																			
-	pro-1		np-3.def			zero-3		b-3							np-2	b-3				np-2	b-3							zero-1		adv	o-1																			
-	he		bottle			bottle									blood					blood								boy																						
-	hum		inanim			inanim									inanim					inanim								hum																						
+	pro-1		np-3.def			zero-3		b-3		pro-3	b-3				np-2	b-3				np-2	b-3							zero-1		adv	o-1																			
+	he		bottle			bottle				it					blood					blood								boy																						
+	hum		inanim			inanim				inanim					inanim					inanim								hum																						
 q'onon.essnibe.016																																																		
 			hibayiš	hezo	tʼokʼaw	kikira	gomƛen		ʔeƛin,	iyo-obuy,			gerdan	wed	run,	hoboži	hibayiš	se	ruwan	reqʼimez,																														
 #1326								#1327			#1328																																							
@@ -4170,9 +4170,9 @@ k'et'un_rwadi.041
 	hoboži	coy	boži	biqiš	zonzo	aldoɣo	goła	lagižo	qʼuwatmoƛʼo			hayło	čanaqaniqor	ʔeƛiš,		hoboži	aldoɣo	goła	saɣłi	raqʼen	diž																													
 #1394										#1395					#1396																																			
 m										m					m.rs																																			
-		S		v.intr	GEN				OTHER		A		ADD	SAY					S		BEN																													
-		np-3		b-3	pro-3				np-3		zero-3		np-1.def						np-5	v.intr	pro-3																													
-		eagle			refl				force				hunter						health	r-5	I																													
+		S		v.intr	GEN				OTHER		A		ADD	SAY					S	v.intr	BEN																													
+		np-3		b-3	pro-3				np-3		zero-3		np-1.def						np-5	r-5	pro-3																													
+		eagle			refl				force				hunter						health		I																													
 		anim			anim				inanim		anim		hum						inanim		anim																													
 k'et'un_rwadi.042																																																		
 	hoboži	hayłu	coyi	hałoqor	ʔeƛin,		me	diž	buho	goła	kumakmos,		debez	de	buwa	baqʼo	beži	sayɣat																																
@@ -4322,7 +4322,7 @@ k'et'un_rwadi.060
 		hago	uži	ʕadaliqoƛʼo	iłi	ikeyƛʼo					ežinu	rekʼuy	ʔeserno	hayło	užiqo																																			
 #1426										#1427																																								
 sub										m																																								
-	EXP		STIM			v.aff						A	ASK		ADD																																			
+	EXP		STIM			v.aff						A	SAY		ADD																																			
 	zero-1		np-1.def			o-1						np-1			np-1.def																																			
 			boy									man			boy																																			
 	hum		hum									hum			hum																																			
@@ -4523,7 +4523,7 @@ k'et'un_rwadi.085
 #1458										#1459																																								
 m.rs										m																																								
 			S	v.intr								A	v.tr	P																																				
-			np-1.def									np-1.def	noagr	np-1																																				
+			np-1.def	o-1								np-1.def	noagr	np-1																																				
 			hunter									khan		vizier																																				
 			hum									hum		hum																																				
 k'et'un_rwadi.086																																																		
@@ -4546,7 +4546,7 @@ k'et'un_rwadi.088
 		hayło	čanaqani	ʔeserho	hayło	wazirqo																																												
 #1461																																																		
 m																																																		
-			A	ASK		ADD																																												
+			A	SAY		ADD																																												
 			np-1.def			np-1.def																																												
 			hunter			vizier																																												
 			hum			hum																																												
@@ -4658,7 +4658,7 @@ k'et'un_rwadi.102
 	hałuy	ʔeserho	hało	čanaqanqo,									sira	me	hače	urɣeliƛ	goł																																	
 #1483												#1484																																						
 m												m.rs																																						
-	A	ASK		ADD										S		pred	COP																																	
+	A	SAY		ADD										S		pred	COP																																	
 	pro-3			np-1.def										pro-1		np-3																																		
 	it			hunter										you.sg		anxiety																																		
 	anim			hum										hum		inanim																																		
@@ -4699,17 +4699,17 @@ k'et'un_rwadi.107
 #1492					#1493									#1494																																				
 sub					sub									m																																				
 		S		v.intr				A	v.tr		P				A	P	SOURCE	v.tr																																
-		np-1.def		o-1				np-3.def			np-4.def				zero-3	pro-1	np-4	o-1																																
+		np-1.def		o-1				np-3.def	y-2		np-4.def				zero-3	pro-1	np-4	o-1																																
 		boy						eagle			tree					he	sleep																																	
 		hum						anim			inanim				anim	hum	inanim																																	
 k'et'un_rwadi.108																																																		
 		hag	aže	yaqʼerno			hayło	xanižo	maa	yeƛo				hago	xanno	cʼarekʼno																																		
 #1495					#1496						#1497																																							
 sub					m						sub																																							
-	A		P	v.tr		A		GEN	G	v.tr		A			P	v.tr																																		
-	zero-3		np-4.def	y-4		zero-3		np-1.def	adv	y-4		zero-3			np-1.def	noagr																																		
-			tree					khan							khan																																			
-	anim		inanim			anim		hum				anim			hum																																			
+	A		P	v.tr		A		GEN	P	v.tr		A			P	v.tr																																		
+	zero-3		np-4.def	y-4		zero-3		np-1.def	np-4 	y-4		zero-3			np-1.def	noagr																																		
+			tree					khan	field						khan																																			
+	anim		inanim			anim		hum	inanim			anim			hum																																			
 k'et'un_rwadi.109																																																		
 			hayłoz	yikerho							debe	amanat	de	tʼubazi	bus																																			
 #1498										#1499																																								
@@ -4866,8 +4866,8 @@ k'et'un_rwadi.128
 	hago	rekʼwe	zeqʼwen	žinazas	rekʼwe,		idur	aqʼenos	hago	uži				xeco	hozuƛʼor	goła	beƛe,	łora	ɣwedeł	ħalki	buwo			hunehos	aqʼes		me	iqoƛʼo																						
 #1532						#1533					#1534											#1535				#1536																								
 m						sub					m											m.rs				sub.rs																								
-		STIM	COP		pred		G	v.intr		S		A	P	v.tr			LOC		TIME				S	SOURCE	v.intr		S	v.intr																						
-		np-1.def			np-1		adv	o-1		np-1.def		zero-1	zero-1				np-3		np-5				zero-1	np-5	o-1		pro-1	o-1																						
+		S 	COP		pred		G	v.intr		S		A	P	v.tr			LOC		TIME				S	SOURCE	v.intr		S	v.intr																						
+		np-1.def			np-1		adv	o-1		np-1.def		zero-1	zero-1	noagr			np-3		np-5				zero-1	np-5	o-1		pro-1	o-1																						
 		man			man					boy							house		day					way			you.sg																							
 		hum			hum					hum		hum	hum				inanim		inanim				hum	inanim			hum																							
 k'et'un_rwadi.129																																																		
@@ -4954,7 +4954,7 @@ k'et'un_rwadi.139
 	hadbe	qʼonon	razi	biqo	[xodbarułi	ruwayaz].		kedi	hałoqor	ʔeserho		"""nižo"	me	aqʼey?		debe	murad	se	goł?									ʔeso	diqo!	de,	debe	haw	murad	de	tʼubazi	buwa	goł.	de	aqʼes.	žinazazo	xani	obuqos	iɣno	hago						
 #1568							#1569				#1570				#1571																																			
 m							m				m.rs				m.rs																																			
-	S			v.intr				A	ADD	ASK		G	S	v.intr		GEN	S	pred	COP																															
+	S			v.intr				A	ADD	SAY		G	S	v.intr		GEN	S	pred	COP																															
 	pro-hpl			b-hpl				np-2	pro-1			adv	pro-1	o-1		pro-1	np-3	pro-5																																
 	they							girl	he				you.sg			you.sg	wish	what																																
 	hum							hum	hum				hum			hum	inanim	inanim																																
@@ -4994,7 +4994,7 @@ k'et'un_rwadi.144
 	hayłu	kedi	šeƛʼu	liƛʼor																																														
 #1580																																																		
 sub																																																		
-		A	P	v.intr																																														
+		A	P	v.tr																																														
 		np-2.def	np-5	noagr																																														
 		girl	clothes																																															
 		hum	inanim																																															
@@ -5058,9 +5058,9 @@ k'et'un_rwadi.152
 	huneho	hayło	rekʼuy	hesqen	žo	dewqo	rikeriye?				rikeriš	beƛʼno	ʔexon	ɣweben																																				
 #1597								#1598																																										
 m.rs								m.rs																																										
-	LOC		A		P	G	v.tr		A	G	v.tr	np-nhpl																																						
-			np-1.def		np-5	pro-1	r-5		zero-1	zero-1	r-nhpl	sheep																																						
-			man		thing	you.sg																																												
+	LOC		A		P	G	v.tr		A	G	v.tr	P																																						
+			np-1.def		np-5	pro-1	r-5		zero-1	zero-1	r-nhpl	np-nhpl																																						
+			man		thing	you.sg						sheep																																						
 			hum		inanim	hum			hum	hum		anim																																						
 k'et'un_rwadi.153																																																		
 	dessu	ƛʼer	beƛʼes	zeqʼwey?	kabadu	amu	biłi																																											
@@ -5072,7 +5072,7 @@ m.rs
 		inanim	anim																																															
 k'et'un_rwadi.154																																																		
 	hayłoy	me	nišƛa	beƛer	kekiri?		hozuƛʼor	goł	hes	begwey	buƛe.			hibayir	kekiriš	goł	de.																																	
-#1601						#1601						#1602																																						
+#1601						#1906						#1602																																						
 m.rs						m.rs						m.rs																																						
 	A	P		G	v.tr			COP			S		A	G	v.tr		P																																	
 	pro-1	pro-1		np-3	noagr						np-3		zero-1	adv	noagr		pro-1																																	
@@ -5090,7 +5090,7 @@ k'et'un_rwadi.156
 	[hag	ocʼeno	hes	qoqbe	raqʼeyƛʼo]		obuy	ʔeserho	hadze	kedbižaqo		"""haw"	egwennu	di	ked	ni	xecey	"meži?"""		"""obu,"	haw	debe	egwennu	ked	[šeƛʼu	rašimez]	[hacikʼliho]	ƛexwes	"goł."""																					
 #1605						#1606					#1607								#1608																															
 sub						m					m.rs								m.rs																															
-				S	v.intr		A	ASK		ADD				GEN	P	LOC	v.tr	A				GEN		S				v.intr																						
+				S	v.intr		A	SAY		ADD				GEN	P	LOC	v.tr	A				GEN		S				v.intr																						
 				np-nhpl	r-nhpl		np-1			np-hpl.def				pro-1	np-2.def	adv	noagr	pro-hpl				pro-1		np-2.def				noagr																						
 				schwan			father			girls				I	girl			you.sg				you.sg		girl																										
 				anim			hum			hum				hum	hum			hum				hum		hum																										
@@ -5106,7 +5106,7 @@ k'et'un_rwadi.158
 	hawsaʕat	yaqʼe	haw.		hibayłu	zamanał	boƛexo	haw	qoq.		[qoq	baqʼen]			qʼidi	bičiyo.		obuy	ʔeserho		"""me"	sira	hače	yoxore	"ƛexwey?"""		"""obu,"	[di	šeƛʼu	ni	riɣišno]	[rašimez]	[hacikʼliho]	ƛexwes	de.	ʕayib	buyom	me	diƛʼo!											
 #1610				#1611						#1612			#1613				#1614			#1615						#1616																								
 m.rs				m						sub			m				m			m.rs						m.rs																								
-	TIME	v.intr	S			TIME	v.intr		S		S	v.intr		S		v.intr		A	ASK		S				v.intr								v.intr		S															
+	TIME	v.intr	S			TIME	v.intr		S		S	v.intr		S		v.intr		A	SAY		S				v.intr								v.intr		S															
 	adv	y-2	pro-2			np-3.def	b-3		np-3.def		np-3	b-3		zero-3		b-3		np-1			pro-2				noagr								noagr		pro-2															
 			she			time			schwan		schwan							father			you.sg														I															
 			hum			inanim			hum		hum			hum				hum			hum														hum															
@@ -5122,18 +5122,18 @@ k'et'un_rwadi.160
 	hago	aqʼen			iduddo	iƛʼiyo																																												
 #1619			#1620																																															
 sub			m																																															
-	hum	v.intr		S	G	v.intr																																												
+	S	v.intr		S	G	v.intr																																												
 	pro-1	o-1		zero-1	adv	o-1																																												
 	he																																																	
 	hum			hum																																														
 k'et'un_rwadi.161																																																		
-	hado	idur	aqʼen			nesa	otʼno	idun,		sasaqo	aqʼo	hayłu	kedes	obu.		hałoqor	ʔeƛiyo,		me	iša	nox	debez	neƛƛʼos	di	sual	goł																								
-#1621				#1622					#1623						#1624			#1625																																
-sub				sub					m						m			m.rs																																
-	S	G	v.intr		S	TIME	v.intr	LOC		TIME	v.intr		GEN	S		ADD	SAY					BEN		GEN	S	COP																								
-	pro-1	adv	o-1		zero-1	adv	o-1	adv		adv	o-1		np-2.def	np-1		np-1						pro-1		pro-1	np-3																									
-	he												girl	father		he						you.sg		I	question																									
-	hum				hum								hum	hum		hum						hum		hum	inanim																									
+	hado	idur	aqʼen			nesa	otʼno	idun,		sasaqo	aqʼo	hayłu	kedes	obu.			hałoqor	ʔeƛiyo,		me	iša	nox	debez	neƛƛʼos	di	sual	goł																							
+#1621				#1622					#1623						#1624				#1625																															
+sub				sub					m						m				m.rs																															
+	S	G	v.intr		S	TIME	v.intr	LOC		TIME	v.intr		GEN	S		A 	ADD	SAY					BEN		GEN	S	COP																							
+	pro-1	adv	o-1		zero-1	adv	o-1	adv		adv	o-1		np-2.def	np-1		zero-1	np-1						pro-1		pro-1	np-3																								
+	he												girl	father			he						you.sg		I	question																								
+	hum				hum								hum	hum		hum	hum						hum		hum	inanim																								
 k'et'un_rwadi.162																																																		
 	hado	uži	išayaz	idur	aqʼeyƛʼo,			išerno	hadon			hałoqor	ʔeƛiyo																																					
 #1626						#1627				#1628																																								
@@ -5159,20 +5159,20 @@ sub.rs						sub.rs
 		flax							seed																																									
 	hum						hum		inanim																																									
 k'et'un_rwadi.165																																																		
-	hezoqʼimur	me	[hag	łeł	bakʼarzi	run]			hibayłutow	saħmar	raqʼera	goł	[muh	kami	bumez].			[kami	biqo]		me	uhera	goł	de																										
-#1633																#1634				#1635																														
-sub.rs																sub.rs				m.rs																														
-		A		P		v.tr	A	P		G	v.tr						S		v.intr		P	v.tr		A																										
-		pro-1		np-5.def		r-5	zero-1	zero-5		np-3.def	r-5						zero-3		b-3		pro-1	o-1		pro-1																										
-		you.sg		flax				flax		measure							grain				you.sg			I																										
-		hum		inanim			hum	inanim		inanim							inanim				hum			hum																										
+	hezoqʼimur	me	[hag	łeł	bakʼarzi	run]					hibayłutow	saħmar	raqʼera	goł	[muh	kami	bumez].			[kami	biqo]		me	uhera	goł	de																								
+#1633							#1865											#1634				#1635																												
+sub.rs							m.rs											sub.rs				m.rs																												
+		A		P		v.tr			A	P		G	v.tr						S		v.intr		P	v.tr		A																								
+		pro-1		np-5.def		r-5			zero-1	zero-5		np-3.def	r-5						zero-3		b-3		pro-1	o-1		pro-1																								
+		you.sg		flax						flax		measure							grain				you.sg			I																								
+		hum		inanim					hum	inanim		inanim							inanim				hum			hum																								
 k'et'un_rwadi.166																																																		
 kamisiyaqo	tʼotʼerayaz	goł,		kami	biqo	hes	muh			me	uhera	goł																																						
 			#1636					#1637																																										
 			sub.rs					m.rs																																										
-					v.intr		np-3.def		A	P	v.tr																																							
-					b-3		grain		zero-1	pro-1	o-1																																							
-										you.sg																																								
+					v.intr		S		A	P	v.tr																																							
+					b-3		np-3.def		zero-1	pro-1	o-1																																							
+							grain			you.sg																																								
 							inanim		hum	hum																																								
 k'et'un_rwadi.167																																																		
 hoboži	me	iƛʼi	iduddo.			nesa	neƛa	goł	dewqor	łełrus	saħ																																							
@@ -5194,18 +5194,18 @@ k'et'un_rwadi.169
 	[łełrus	me	hibadu	saħ	močoł	nesa	močin	beƛen]			[hibayłu	močoł	ežun	caƛin]				[hezoqʼimur	rutʼen]			[hibagtow	łeł	[muh	kami	bumez]	raqʼerno]			hibaw	saħ	bičʼayaz	baqʼe																	
 #1641									#1642						#1643					#1644								#1645																						
 sub.rs									sub.rs						sub.rs					sub.rs								m.rs																						
-	GEN	A		np-3.def	LOC	TIME		v.tr		A		G	P	v.tr		A	P		v.tr		A		P				v.tr		A		P		v.tr																	
-	np-5	pro-1		measure	np-3	adv		b-3		zero-1		np-3.def	np-3	noagr		zero-1	zero-5		r-5		zero-1		np-5.def				r-5		zero-1		np-3.def		b-3																	
-	flax	you.sg			field							field	seed				flax						flax								measure																			
-	inanim	hum			inanim					hum		inanim	inanim			hum	inanim				hum		inanim						hum		inanim																			
+	GEN	A		P	LOC	TIME		v.tr		A		G	P	v.tr		A	P		v.tr		A		P				v.tr		A		P		v.tr																	
+	np-5	pro-1		np-3.def	np-3	adv		b-3		zero-1		np-3.def	np-3	noagr		zero-1	zero-5		r-5		zero-1		np-5.def				r-5		zero-1		np-3.def		b-3																	
+	flax	you.sg		measure	field							field	seed				flax						flax								measure																			
+	inanim	hum		inanim	inanim					hum		inanim	inanim			hum	inanim				hum		inanim						hum		inanim																			
 k'et'un_rwadi.170																																																		
 	kami	biqo	hesqen	muh,		me	uhera	goł	de																																									
 #1646					#1647																																													
 sub.rs					m.rs																																													
-	v.intr			np-3		P	v.tr		A																																									
-	b-3			grain		pro-1	o-1		pro-1																																									
-						you.sg			I																																									
-						hum			hum																																									
+	v.intr			S		P	v.tr		A																																									
+	b-3			np-3		pro-1	o-1		pro-1																																									
+				grain		you.sg			I																																									
+				inanim		hum			hum																																									
 k'et'un_rwadi.171																																																		
 	hibayłutow	ɣwedƛʼo	nesa	yaqʼo	hibaw	bercinawni	egwennu	ked																																										
 #1648																																																		
@@ -5218,7 +5218,7 @@ k'et'un_rwadi.172
 		ʔeserho	hało	užiqo		"""obuy"	debez	se	sual	neƛi?	uži,	"ʔeso!"""																																						
 #1649					#1650																																													
 m					m.rs																																													
-	A	ASK		ADD		A	BEN		P	v.tr																																								
+	A	SAY		ADD		A	BEN		P	v.tr																																								
 	zero-2			np-1.def		np-1	pro-1		np-3	noagr																																								
 				boy		father	you.sg		question																																									
 	hum			hum		hum	hum		inanim																																									
@@ -5282,7 +5282,7 @@ k'et'un_rwadi.180
 			[biton	idurno	ʔeƛin]			hało	užiqor	ʔeƛiyo	"""san"	iš	me!		hoboži	qʼono	ʔeƛa	sual	debez	biča	goł	"di"""																												
 #1671						#1672								#1673																																				
 sub						m								m.rs																																				
-	A	P		G	v.tr		A		ADD	SAY					TIME			S	BEN	v.tr		GEN																												
+	A	P		G	v.tr		A		ADD	SAY					TIME			S	BEN	v.intr		GEN																												
 	zero-1	zero-1		adv	noagr		zero-1		np-1.def						adv			np-3	pro-1	b-3		pro-1																												
 									boy									question	you.sg			I																												
 	hum	hum					hum		hum									inanim	hum			hum																												
@@ -5290,9 +5290,9 @@ k'et'un_rwadi.181
 	žigoyƛʼores	biča	goł	debez	di	sual.		dewde	aldoɣo	gora	goł	de	sual.		dewder	baqʼera	goł	ocʼeno	qʼono	gulu																														
 #1674							#1675							#1676																																				
 m.rs							m.rs							m.rs																																				
-	TIME	v.tr		BEN	GEN	P		G		v.tr		A	P		G	v.intr				np-3																														
-	adv	b-3		pro-1	pro-1	np-3		pro-1		noagr		pro-1	np-3		pro-1	b-3				horse																														
-				you.sg	I	question		you.sg				I	question		you.sg																																			
+	TIME	v.intr		BEN	GEN	S 		G		v.tr		A	P		G	v.intr				S																														
+	adv	b-3		pro-1	pro-1	np-3		pro-1		noagr		pro-1	np-3		pro-1	b-3				np-3																														
+				you.sg	I	question		you.sg				I	question		you.sg					horse																														
 				hum	hum	inanim		hum				hum	inanim		hum					anim																														
 k'et'un_rwadi.182																																																		
 hibagzełes	debez	etiyo	goła	kedƛʼo	kwezey	goro	me																																											
@@ -5311,13 +5311,13 @@ sub
 	it		boy			girl	father																																											
 	inanim		hum			hum	hum																																											
 k'et'un_rwadi.184																																																		
-	[sasaqo	kamisiyan	bičirno]		hagzede	aldoɣo	me	gora	goł	kwezey	debez	etiyo	goła	kedƛʼo																																				
-#1678				#1679																																														
-sub.rs				m.rs																																														
-	TIME	P	v.tr		LOC		A	v.tr		P				G																																				
-	adv	np-hpl	b-hpl		pro-hpl		pro-1	noagr		np-5				np-2																																				
-		committee			committee		you.sg			hand				girl																																				
-		hum			hum		hum			inanim				hum																																				
+		[sasaqo	kamisiyan	bičirno]		hagzede	aldoɣo	me	gora	goł	kwezey	debez	etiyo	goła	kedƛʼo																																			
+#1678					#1679																																													
+sub.rs					m.rs																																													
+	A	TIME	P	v.tr		LOC		A	v.tr		P				G																																			
+	zero-1	adv	np-hpl	b-hpl		pro-hpl		pro-1	noagr		np-5				np-2																																			
+			committee			committee		you.sg			hand				girl																																			
+	hum		hum			hum		hum			inanim				hum																																			
 k'et'un_rwadi.185																																																		
 	hado	uži	iƛʼiyo	iduddo			[nesa	otʼno].		sasaqo	deru	diž	haw	[yetiyo	goła]	bercinawni	ked	yeqʼa	goł																															
 #1680					#1681				#1682																																									
@@ -5328,7 +5328,7 @@ m					sub				m.rs
 		hum				hum						hum					hum																																	
 k'et'un_rwadi.186																																																		
 	[hibayru	urɣeliƛ	hado	uži	goła]		yaqʼo	haw	egwennu	bercinawni	ked	hałoder																																						
-#1682						#1683																																												
+#1907						#1683																																												
 sub						m																																												
 				S	COP		v.intr				S	G																																						
 				np-1.def			y-2				np-2.def	pro-1																																						
@@ -5419,7 +5419,7 @@ k'et'un_rwadi.197
 #1696								#1697						#1698						#1699					#1700																									
 sub								sub						sub						sub					m																									
 	A	P				TIME	v.tr		A	G	v.tr		P		A		G	P	v.tr		A	P	v.tr			A	ADD	SAY																						
-	zero-1	zero-1				adv			zero-1	adv	o-1		np-1.def		zero-1		np-1.def	np-5	noagr		zero-1	zero-1	o-1			zero-1	np-1																							
+	zero-1	zero-1				adv	noagr		zero-1	adv	o-1		np-1.def		zero-1		np-1.def	np-5	noagr		zero-1	zero-1	o-1			zero-1	np-1																							
 													boy				boy	food									boy																							
 	hum	hum							hum				hum		hum		hum	inanim			hum	hum				hum	hum																							
 k'et'un_rwadi.198																																																		
@@ -5616,7 +5616,7 @@ meži	dide	purhos	bułiyom
 																																																		
 miskin_rek'we.022																																																		
 			[hibagno	ʔeƛin]		hado	obu	uho																																										
-#1727					#																																													
+#1727					#1901																																													
 sub					m																																													
 	A		P	v.tr			S	v.intr																																										
 	zero-1		pro-5	noagr			np-1.def	o-1																																										
@@ -5627,9 +5627,9 @@ miskin_rek'we.023
 #1728										#1729																																								
 sub										m																																								
 		A				LOC		v.tr	P		A	P	v.tr																																					
-		np-hpl.def				np-4					zero-1	np-1	o-1																																					
+		np-hpl.def				np-4		r-5	np-5		zero-1	np-1	o-1																																					
 		children				tree						father																																						
-		hum				inanim					hum	hum																																						
+		hum				inanim			inanim		hum	hum																																						
 miskin_rek'we.024																																																		
 	awalaw	ɣwedƛʼo	iča	aqʼo	ežinu	uži,		hago	iƛʼiyo	gom																																								
 #1730							#1731																																											
@@ -5672,7 +5672,7 @@ m
 								hum		inanim																																								
 miskin_rek'we.029																																																		
 	hado	uži	[hayir	aqʼeyƛʼo]			ixo	ƛʼere	ažeyƛʼodo																																									
-#1737					#																																													
+#1737					#1902																																													
 sub					m																																													
 		S	G	v.intr		S	v.intr		G																																									
 		np-1.def	adv	o-1		zero-1	o-1		np-4																																									
@@ -5723,7 +5723,7 @@ miskin_rek'we.035
 #1750																																																		
 m																																																		
 			G	v.intr		S																																												
-			np-5			np-3.def																																												
+			np-5	b-3		np-3.def																																												
 			air			horse																																												
 			inanim			anim																																												
 miskin_rek'we.036																																																		
@@ -5731,8 +5731,8 @@ miskin_rek'we.036
 #1751					#1752																																													
 sub					sub																																													
 	LOC		S	v.intr			S	v.intr																																										
-	np-3		np-5				np-3	noagr																																										
-	earth		day	noagr			time																																											
+	np-3		np-5	noagr			np-3	noagr																																										
+	earth		day				time																																											
 	inanim		inanim				inanim																																											
 miskin_rek'we.037																																																		
 		[hezoqʼimur	butin]			baqʼo	hibayłu	obuzo	sudahor																																									
@@ -5778,7 +5778,7 @@ miskin_rek'we.042
 	[hibayłu	zamanał	me	ižey	raɣin]			[raqʼeyƛʼor]		de	baqʼa	goł	...																																					
 #1759						#1760			#1761																																									
 sub.rs						sub.rs			m.rs																																									
-		TIME	A	P	v.intr		S	v.intr		S	v.intr																																							
+		TIME	A	P	v.tr		S	v.intr		S	v.intr																																							
 		np-3.def	pro-1	np-5	r-5		zero-5	r-5		pro-3	b-3																																							
 		time	you.sg	eye			eye			I																																								
 		inanim	hum	inanim			inanim			anim																																								
@@ -5791,13 +5791,13 @@ debe	murad	tʼubazi	buwayaz
 																																																		
 																																																		
 miskin_rek'we.044																																																		
-	[hibaw	amanat	hało	užiqorno	bun],		gulu	hawaƛʼo	biƛʼiyo																																									
-#1762						#1763																																												
-sub						m																																												
-		P		BEN	v.tr		S	G	v.intr																																									
-		np-3.def		np-1.def	b-3		np-3	np-5	b-3																																									
-		order		boy			horse	air																																										
-		inanim		hum			anim	inanim																																										
+		[hibaw	amanat	hało	užiqorno	bun],		gulu	hawaƛʼo	biƛʼiyo																																								
+#1762							#1763																																											
+sub							m																																											
+	A 		P		BEN	v.tr		S	G	v.intr																																								
+	zero-1		np-3.def		np-1.def	b-3		np-3	np-5	b-3																																								
+			order		boy			horse	air																																									
+	hum		inanim		hum			anim	inanim																																									
 miskin_rek'we.045																																																		
 	[ɣweden	qešin],		hado	užin	iƛʼiyo	iduddo																																											
 #1764			#1765																																															
@@ -5810,7 +5810,7 @@ miskin_rek'we.046
 		[idur	aqʼenos]		haze	ʔesnižay	ʔeserho	hałoqo,			[maxsaraƛʼo	hadon	uxno]																																					
 #1766				#1767					#1768																																									
 sub				m					sub																																									
-	S	G	v.intr			A	ASK	ADD		A	OTHER	P	v.tr																																					
+	S	G	v.intr			A	SAY	ADD		A	OTHER	P	v.tr																																					
 	zero-1	adv	o-1			np-hpl.def		pro-1		zero-hpl		pro-1	o-1																																					
 						brothers		he				he																																						
 	hum					hum		hum		hum		hum																																						
@@ -5891,14 +5891,14 @@ miskin_rek'we.056
 #1786						#1787																																												
 m						sub																																												
 	LOC		v.intr		S			S	v.intr																																									
-					np-1.def			np-5	r-5																																									
+	adv		o-1		np-1.def			np-5	r-5																																									
 					brother			day																																										
 					hum			inanim																																										
 miskin_rek'we.057																																																		
 		[seda	zamanał	dulantow	baɣarzin	bun]		[baqʼen]	kʼoƛo	mališ	iy	biłi	cʼudu	gulu																																				
 #1788							#1789																																											
 sub							m																																											
-	A		TIME	P		v.intr		v.intr						S																																				
+	A		TIME	P		v.tr		v.intr						S																																				
 	zero-3		np-3	np-3		b-3		b-3						np-3																																				
 	horse		time	earth										horse																																				
 	anim		inanim	inanim										anim																																				
@@ -6034,7 +6034,7 @@ miskin_rek'we.074
 	[qʼwena	ʔeƛa	ɣwedƛʼon	hado	aqʼeyƛʼo],			[hibayrutow	hałoƛʼo	łeža-kʼošin]			ʔeserho	hayłoqo																																				
 #1814						#1815					#1816																																							
 sub						sub					m																																							
-			TIME	S	v.intr		S		G	v.intr		A	ASK	ADD																																				
+			TIME	S	v.intr		S		G	v.intr		A	SAY	ADD																																				
 			np-5	pro-1	o-1		zero-hpl		pro-1	noagr		zero-hpl		pro-1																																				
 			day	he					he					he																																				
 			inanim	hum			hum		hum			hum		hum																																				
@@ -6058,7 +6058,7 @@ miskin_rek'we.077
 	hało	užiy	hazeqor	hesqen	rožin	ʔeƛiyo	gom																																											
 #1819																																																		
 m																																																		
-		A	ADD		P	v.intr																																												
+		A	ADD		P	v.tr																																												
 		np-1.def	pro-hpl		np-5	noagr																																												
 		boy	they		word																																													
 		hum	hum		inanim																																													
@@ -6178,7 +6178,7 @@ miskin_rek'we.091
 	hibayłu	minutma	baqʼa	goł	dewde	aldoɣor	de	[debe	goła	murad	tʼubazi	buwayaz]																																						
 #1845																																																		
 m.rs																																																		
-		TIME	v.intr																																															
+		TIME	v.intr		LOC		S																																											
 		np-3.def	b-3		pro-1		pro-3																																											
 		minute			you.sg		I																																											
 		inanim			hum		anim																																											
@@ -6251,6 +6251,6 @@ miskin_rek'we.100
 #1864																																																		
 m.rs																																																		
 	GEN				LOC	v.intr		GEN	S																																									
-	pro-1				np-4			np-1	np-2																																									
+	pro-1				np-4	y-4		np-1	np-2																																									
 	he				floor			khan	girl																																									
 	hum				inanim			hum	hum																																									

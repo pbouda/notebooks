@@ -49,7 +49,7 @@ def word_orders(ag, search_terms = None, annotation_map = {}, with_agreement = F
                 "no clause type in clause unit {0}".format(parent_node.id))
         for gramm_node in ag.nodes_for_tier("grammatical_relation", parent_node):
             a_value = ag.annotation_value_for_node(gramm_node)
-            if search_terms and a_value in search_terms:
+            if search_terms is None or a_value in search_terms:
                 if a_value in annotation_map:
                     a_value = annotation_map[a_value]
                 word_order.append(a_value)
