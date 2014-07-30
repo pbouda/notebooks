@@ -76,12 +76,15 @@ class ExcelParser(poioapi.io.graf.BaseParser):
         with codecs.open(filepath, "r", "utf-8") as csvfile:
             hinuq2 = csv.reader(csvfile, delimiter="\t")
             i = 0
-            for row in hinuq2:
+            for j, row in enumerate(hinuq2):
                 if row[0] in skip_lines:
                     continue
 
                 if i == tier_numbers["clause_id"]:
                     clause_ids = row
+                    #if not clause_ids[0].startswith("#") and not clause_ids[0] == "":
+                    #    print(j+1)
+                    #    print(row)
                 elif i == tier_numbers["clause_type"]:
                     clause_types = row
                 elif i == tier_numbers["grammatical_relation"]:

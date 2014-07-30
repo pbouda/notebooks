@@ -30,7 +30,7 @@ two_travellers.003
 THe  young asked the old:																																											
 #4																																											
 m																																											
-			A				ADD	ASK																																			
+			A				ADD	SAY																																			
 																																											
 			np-1				np-1																																				
 			man				man																																				
@@ -54,11 +54,11 @@ two_travellers.005
 What are you saying, man, nobody sits on nobody, said the old man.																																											
 #6							#7											#8																									
 m.rs							m.rs											m																									
-	P		v.tr			VOC		G			S				v.intr				SAY		A																						
+	P		v.tr	A		VOC		G			S				v.intr				SAY		A																						
 																																											
-	pro-3		b-3			np-1		pro-1			pro-1				noagr						np-1																						
-	what					man		nobody			nobody										man																						
-	inanim					hum		hum			hum										hum																						
+	pro-3		b-3	zero-1		np-1		pro-1			pro-1				noagr						np-1																						
+	what			you		man		nobody			nobody										man																						
+	inanim			hum		hum		hum			hum										hum																						
 two_travellers.006																																											
 		slik’	buginxa	yan	dahalgi	rislslanila,																																					
 				slik’	b-	ug	-in	-xa	yan			daha	-l	-gi	r-	islsl	-anila																										
@@ -198,7 +198,7 @@ two_travellers.017
 			Are there really beds on the way, said the old man.																																								
 #26															#27																												
 m.rs															m																												
-	GEN	VOC	LOC			PTCP				P	COP							S	v.intr																								
+	GEN	VOC	LOC			PTCP				S	COP							S	v.intr																								
 						b-3																																					
 	pro-1	np-1	np-3							np-3	b-3							np-1	noagr																								
 	you.sg	friend	way							bed								man																									
@@ -234,7 +234,7 @@ two_travellers.020
 	At this moment the young man said to the old man:																																										
 #30																																											
 m																																											
-			TIME		A				ADD		ASK																																
+			TIME		A				ADD		SAY																																
 																																											
 			np-3.def		np-1				np-1																																		
 			time		man				man																																		
@@ -423,6 +423,7 @@ two_travellers.036
 	halmağas	bican	şşinab	jo	yasasle	bicine	sluhanila.																																				
 	halmağ	-as	b-	ic	-an	şşina	-b	jo	yas	-asle	b-	ic	-ine	sluh	-anila																												
 	companion	-m.erg	n-	tell	-pst	every	-n	thing	girl	-dat	n-	tell	-inf	enter	-pstevid																												
+																																											
 #52																																											
 m																																											
 								STIM	EXP					v.aff																													
@@ -430,7 +431,6 @@ m
 								np-3	np-2					noagr																													
 								thing	girl																																		
 								inanim	hum																																		
-When he told her about his companion, the girl understood what it was about.																																											
 two_travellers.037																																											
 	Dida	esdasa	şşvalde	şşveç’ev	çi	dande	ç’vaç’ilan	abunila																																			
 	di	-da	e	-sda	-sa	şşv	-alde	şşve	-ç’e	-v	çi	dande	ç’va	-ç’ilan	ab	-unila	axiralda	k’udiyas.																									
@@ -498,7 +498,7 @@ two_travellers.042
 First he asked you, should I tell a story to shorten the way, or do you tell one?																																											
 #61								#62																																			
 m.rs								m.rs																																			
-	TIME		A		ADD		ASK			P	A				v.tr																												
+	TIME		A		ADD		SAY			P	A				v.tr																												
 																																											
 			pro-1		pro-1					np-3	pro-1				b-3																												
 			he		you.sg					story	I																																
@@ -594,7 +594,7 @@ four	say	-inf	-foc	-	dem	-m.erg	2.obl	-loc	ask.seq	n-	cop
 And the fourth time he asked you																																											
 #72																																											
 m.rs																																											
-					A		ADD		ASK																																		
+					A		ADD		SAY																																		
 																																											
 					pro-1		pro-1																																				
 					he		you.sg																																				
@@ -1016,7 +1016,7 @@ this_much	money	month.	-dat	give	-inf	fall	-pst.if	2.gen	talent	-	quot	ask	-pste
 If I give you so much money per month, what is your talent then, asked the king.																																											
 #93											#94																																
 sub.rs											m																																
-					S	v.intr						ASK		A																													
+					S	v.intr						SAY		A																													
 																																											
 					zero-1	noagr								np-1																													
 					I									king																													
@@ -1136,7 +1136,7 @@ King_and_slave.014
 	The king asked how the horse was.																																										
 #111				#112																																							
 m				m.rs																																							
-	A		ASK		PRED		S		COP																																		
+	A		SAY		PRED		S		COP																																		
 					b-3																																						
 	np-1				adj		np-3		b-3																																		
 	king				what.kind		horse																																				
@@ -1208,11 +1208,11 @@ King_and_slave.020
 но вскормлен он буйволиным молоком.																																											
 #120						#121																																					
 m.rs						m																																					
-	A	OTHER	v.tr						SAY					A																													
+	A	OTHER	v.tr	P					SAY					A																													
 																																											
-	zero-imp	np-3	b-3											np-1																													
-		buffalo												boy																													
-	hum	anim												hum																													
+	zero-imp	np-3	b-3	zero-3										np-1																													
+		buffalo		horse										boy																													
+	hum	anim		anim										hum																													
 King_and_slave.021																																											
 		batiç’oni	şşib	habileb?	-	yan	abunila	q’iraras.																																			
 		b-	at	-i	-ç’oni	şşib	hab	-ile	-b	-	yan	ab	-unila	q’irar	-as																												
@@ -1556,7 +1556,7 @@ behind	-n	that	-m.erg	ask	-pstevid	where	-trans	-emph	know	-pstpart	-n	son	-m.lo
 He asked him, how he got to know about his origin																																											
 #162																																											
 m																																											
-		A		ASK								ADD																															
+		A		SAY								ADD																															
 																																											
 		pro-1										np-1																															
 		he										boy																															
@@ -1989,7 +1989,7 @@ this	-pl.gen	most	in_front.m	m-	be	-adj	-pl	-m.erg	ask	-pstevid	shepherd	-m.loc
 Being right in front of them, they asked the shepherd.																																											
 #199																																											
 m																																											
-					A				ASK		ADD																																
+					A				SAY		ADD																																
 																																											
 					np-pl						np-1																																
 											shepherd																																
@@ -2252,12 +2252,12 @@ Herdsman_and_Shamkhal.047
 			up.lat	reach	-simul		call	-pstevid	servant	-m.erg	shepherd	-lat	king	-m.erg	after	call	-prspart	-m	m-	cop																							
 			Whe he reached him, the servant called the shepherd, the king sent me after you																																								
 #235					#236							#237																															
-sub					m																																						
-	S		G	v.intr			P	v.tr	A		G																																
+sub					m							m.rs																															
+	S		G	v.intr			P	v.tr	A		G			A	P		v.tr																										
 																																											
-	zero-1		adv	noagr			zero-3	noagr	np-1		np-1																																
-	servant		up						servant		shepherd																																
-	hum						inanim		hum		hum																																
+	zero-1		adv	noagr			zero-3	noagr	np-1		np-1			np-1	zero-1		w-1																										
+	servant		up						servant		shepherd			king	you																												
+	hum						inanim		hum		hum			hum	hum																												
 Herdsman_and_Shamkhal.048																																											
 mun	vaçine	jiv	vit’anin	hesilan.																																							
 mun	v-	aç	-ine	ji	-v	v-	it’	-an	-in	hesi	-l	-an																															
@@ -2325,7 +2325,7 @@ ask	-pstevid	servant	-m.erg	-	this.n	1.gen	black	donkey.obl	-gen	hoof.pl	stand	-
 There where mz black donkey's hoofs stand, under them it is.																																											
 #247				#248																																							
 m 				m.rs																																							
-	ASK	A			S									PRED			COP																										
+	SAY	A			S									PRED			COP																										
 																																											
 		np-1			pro-3									np-3			b-3																										
 		servant			it									place																													
@@ -2349,7 +2349,7 @@ hand_out,can	-pstevid	this	-n	answer
 It was a good answer.																																											
 #251																																											
 m																																											
-	intr.	S																																									
+	v.intr	S																																									
 																																											
 	noagr	np-3.def																																									
 		answer																																									
@@ -2361,7 +2361,7 @@ that	-n	sky.in	-n	how_many	star	n-	coppart	-n	-	say	-seq	ask	-pstevid	servant	-m
 How many stars are in the sky? Asked the servant the shephard the second time.																																											
 #252									#253																																		
 m.rs									m																																		
-		LOC			S		COP			ASK				A		P																											
+		LOC			S		COP			SAY				A		P																											
 																																											
 		np-3.def			np-3		b-3							np-1		np-1																											
 		sky			star									servant		shepherd																											
@@ -2445,7 +2445,7 @@ ask	-pstevid	servant	-m.erg	-	most	girl	-pl.dat	m-	love	-prspart	-m	man	who.m	sa
 and asked the servant. Which man is the most beloved one by the girls?																																											
 #261				#262																																							
 m				sub.rs																																							
-	ASK	A				EXP			v.aff			STIM																															
+	SAY	A				EXP			v.aff			STIM																															
 																																											
 		np-1				np-pl			w-1			np-1																															
 		servant				girls						man																															
@@ -2722,7 +2722,7 @@ Batrak_and_the_rich.010
 		do not do strnage things such as brining the guest's donkey to the lake																																									
 #296											#297																																
 sub											sub																																
-	A 	GEN		P	G			v.tr				A	P	v.intr																													
+	A 	GEN		P	G			v.tr				A	P	v.tr																													
 																																											
 	zero-imp	np-1		np-3	np-3			b-3				zero-1	np-3	b-3																													
 		guest		donkey	lake							you.sg	thing																														
@@ -2879,7 +2879,7 @@ call	-seq	m-	cop	shepherd	ask.seq	n-	cop	which	-n	medicine	-emph	give	-inf	fall.
 The shephard was called and asked, which medicine to give to the king against the illness.																																											
 #324					#325			#326																																			
 m					m			m.rs																																			
-	A	v.tr		P		A	ASK		A	P		v.tr							BEN																								
+	A	v.tr		P		A	SAY		A	P		v.tr							BEN																								
 																																											
 	zero-imp	w+w-1		np-1		zero-imp			zero-imp	np-3		b-3							np-1																								
 				shepherd						medicine									king																								
@@ -3096,7 +3096,7 @@ thought	fall	-pstevid	Bolo	-loc	beg.iter	-pstevid	this.m	leave	-emph	say	-seq	he
 Bolo thought about that, begged him, et me the field, stroke his head, but the chief did not listen.																																											
 #371				#372							#373						#374						#375																				
 m				m							m						m						sub																				
-	S	v.intr	G		S	v.intr						P	v.tr		A			P	v.intr			A		A	P	v.tr																	
+	S	v.intr	G		S	v.intr						P	v.tr		A			P	v.tr			A		A	P	v.tr																	
 																																											
 	np-3	noagr	np-1		zero-1	noagr						np-3	noagrt		pro-1			np-3	noagr			np-1		zero-1	pro-3	b-3																	
 	thought		Bolo		Bolo							head			he			ear				chief		Bolo	what																		
@@ -3156,7 +3156,7 @@ m-	come	-seq	evening	1.obl	-erg	2.obl	-dat	nine	question	give	-fut	nine.f/n.dat	
 I will come to you in the evening to ask you 9 questions, if you give me 9 answers then you get my nine years old mare.																																											
 #390			#391								#392																																
 sub.rs			m.rs								sub.rs																																
-	S	v.tr		TIME	A	BEN			P	v.tr		A	P	v.tr																													
+	S	v.intr		TIME	A	BEN			P	v.tr		A	P	v.tr																													
 																																											
 	zero-1	w-1		adv	pro-1	pro-1			np-3	noagr		zero-1	np-3	noagr																													
 	I			evening	I	you.sg			question			you.sg	answer																														
@@ -3240,7 +3240,7 @@ and	on_you	salam	-	quot	-foc	say	-seq	suddenly	-seq	up.lat	pl.exit	-pstevid	that
 Va Aleykum Assalam!said they, getting up and greeting him. Asking for the news, the guest said:																																											
 #410							#411										#412					#413																					
 sub							m										m					m																					
-					A	SAY					v.intr		S					A		P	v.tr		TIME	ASK		A																	
+					A	SAY					v.intr		S					A		P	v.tr		TIME	SAY		A																	
 																																											
 					zero-pl						r-pl		pro-pl					zero-pl		np-3	noagr		adv			np-1																	
 					couple								they					couple		news			finally			hum																	
@@ -3685,7 +3685,7 @@ stupid	-m.erg	again	denial	do.n	-pst.evid	this	-n	time.in	king	-m.erg	ask	-pstev
 But the fool again denied. This time the king asked why he would not drink																																											
 #506						#507						#508																															
 m						m						m.rs																															
-	A	TIME	P	v.tr				TIME	A	ASK			OTHER	A		P		v.tr																									
+	A	TIME	P	v.tr				TIME	A	SAY			OTHER	A		P		v.tr																									
 																																											
 	np-1	adv	np-3	b-3				np-3.def	np-1				pro	pro-1		np-3		b+b-3																									
 	fool	again	denial					time	king				why	you.sg		horn																											
@@ -3707,8 +3707,8 @@ heb	borxarab	slabgo	slslarasl	mun	aħmaq’al	jal	ricinegi,	aħmaq’al	jal	hari
 he	-b	b-	orx	-ara	-b	slabgo	slslar	-asl	mun	aħmaq’	-al	jal	r-	ic	-ine	-gi	aħmaq’	-al	jal	har	-ize	-gi	t’am	-una	aħmaq’	-a	-v																
 this	-n	n-	lift	-pstpart	-n	three	horn	-in	2.abs	stupid	-pl.abs	thing.pl	pl-	tell	-fut.ptcp	-foc	stupid	-pl.abs	thing.pl	do.pl	-inf	-foc	spread	-pst	stupid	-adj	-m																
 drinking these three horns you said stupid things, you did stupid things.																																											
-#511																																											
-m.rs																																											
+																																											
+																																											
 																																											
 																																											
 																																											
@@ -3962,7 +3962,7 @@ one	person	-nmlz	neg.pstpart	-n	house.in	-m	-dat	inside	-m	-dat	ask	-pstevid	son
 He asked the widower's son when nobody was in the house, what did you do?																																											
 #558									#559					#560																													
 sub									m					m.rs																													
-	S		COP		LOC					A	ASK		ADD		A		v.tr			P																							
+	S		COP		LOC					A	SAY		ADD		A		v.tr			P																							
 					w-1																																						
 	np-1		noagr		np-3					zero-1			np-1		pro-1		b-3			pro-3																							
 	person				house					king			son		you.sg					what																							
@@ -3972,10 +3972,9 @@ q’orolaslul	vasas	c’an	baqun	şah	ˤabasida	bixhanila	jindisago	qvarab,	jind
 q’orola	-slul	vas	-as	c’an	baq	-un	şah	ˤabas	-ida	b-	ixh	-anila	jindi	-sa	-go	qva	-ra	-b	jindir	-go	ğolbas	b-	uge	-b	kağat																		
 widow	-f/n.gen	son	-m.erg	pull.seq	n.exit	-seq	shah	Abbas	-loc	n-	see	-pstevid	self.obl	-el	-adv	write	-pstpart	-n	self.gen	-adv	signature	n-	coppart	-n	letter																		
 The widower's son went to the side and Shakh Abbas saw the letter written by (from) himself, with his own signature.																																											
-nice reflexive, but not clear whether the second one is in a relative clause or in the main clause																																											
 						#561												#562																									
 						m												sub																									
-								EXP			v.aff						P		GEN		S		COP																				
+								EXP			v.aff						STIM		GEN		S		COP																				
 																																											
 								np-1			b-3						np-3		pro-1		np-3		b-3																				
 								Abbas									letter		refl		signature																						
@@ -4156,7 +4155,7 @@ this	-m.loc	dem	-f	right	-n	hand	-foc	cut	-seq	f-	find	-pstevid	what	-	how	-	say
 He found the right hand cut. What, how did this happen?																																											
 #594				#595												#596																											
 m				sub												m																											
-	EXP	STIM	v.aff		A	P		v.tr										A	ASK																								
+	EXP	STIM	v.aff		A	P		v.tr										A	SAY																								
 																																											
 	pro-1	pro-2	y-2		zero-imp	np-3		noagr										zero-1																									
 	he	she				hand												Abbas																									
@@ -4192,7 +4191,7 @@ shah	Abbas	-erg	ask	-pstevid	merchant	-m.loc		2.gen	ring	n-	see	-pst.q	-	say	-se
 Shkh Abbas asked the merchant, Do you see the ring?																																											
 #601						#602																																					
 m						m.rs																																					
-	A 		ASK		ADD		EXP	GEN	STIM	v.aff																																	
+	A 		SAY		ADD		EXP	GEN	STIM	v.aff																																	
 																																											
 	np-1				np-1		zero-1	pro-1	np-3	b-3																																	
 	Abbas				merchant		you.sg	you.sg	ring																																		
@@ -4337,7 +4336,7 @@ stand	-inf	-foc	do.m	-seq	this	-m.loc	ask	-pstevid	excl	God	m-	be_hungry	-inf	un
 Shakh Abbas stopped him and asked, ya Allah, don't let anybody hunger or have too much to eat, the words that your said, what is their meaning?																																											
 #627					#628																																						
 sub					m																																						
-	A	P	v.tr			A	ADD	ASK																																			
+	A	P	v.tr			A	ADD	SAY																																			
 																																											
 	zero-1	zero-1	w-1			zero-1	pro-1																																				
 	Abbas	driver				Abbas	he																																				
@@ -4359,7 +4358,6 @@ ShakhAbbas_man_009
 		ˤorc’	-ani	ˤadan	ç’uħ	-ula	ˤamal	k’odosl	-ula	jin	-da	-san	ˤodo	-re	ˤan	r-	uge	-l	ˤadamal	ħaq’	-i	-r	har	-ula	-yan																		
 		satiate	-pst.if	person	be_proud	-ipf	temper	become_large	-ipf	self	-loc	-trans	down	-pl.lat	like	pl-	coppart	-abs.pl	person.pl	complaint	-msd	-pl	do.pl	-ipf	-quot																		
 A person eating too much will become proud and get bad habits, he will look down on other people and complain, he said.																																											
-looks like reflexive in a postpositional phrase																																											
 #634			#635			#636			#637											#638																							
 sub.rs			m.rs			m.rs			sub.rs											m.rs																							
 	S	v.intr		S	v.intr		S	v.intr					G				COP		S		A	P	v.tr																				
@@ -4447,7 +4445,7 @@ hey	friend	sad	-adv	m-	see	-prspart	-m	m-	cop	guys	what	n.get	-pstpart	-n	2.obl	
 Hey friend, I see you sad, buddy. What happened to you? the horseman asked																																											
 #653											#654						#655																										
 m.rs											m.rs						m																										
-	EXP				v.aff					STIM		S	v.intr		BEN				ASK		A																						
+	EXP				v.aff					STIM		S	v.intr		BEN				SAY		A																						
 																																											
 	pro-1				w-1					np-1		pro-3	b+b-3		pro-1						pro-1																						
 	I									guy		what			you.sg						he																						
@@ -4483,7 +4481,7 @@ mun	-gi	ustar	-işş	-	yan	hiq’	-anila	he	-sda	u	v-	ugo	-	yan	ab	-unila	do	-s
 Are you also a master?, he asked him. Yes, I am he said.																																											
 				#661					#662					#663																													
 				m					m.rs					m																													
-					A	ASK		ADD		S	COP				SAY		A																										
+					A	SAY		ADD		S	COP				SAY		A																										
 																																											
 					zero-1			pro-1		zero-1	w-1						pro-1																										
 					master			he		I							he																										
@@ -4517,7 +4515,7 @@ Master_and_boat.011
 		ab	-un	jin	-da	kodo	-b	b-	uk’	-ara	-b	jini	tl’ab	-un	b-	içça	-n	t	-anila	he	-sul	hurmasl																					
 		say	-seq	self	-loc	hand.in	-n	n-	be	-pstpart	-n	pick	beat	-seq	n-	let	-seq	leave	-pstevid	this	-m.gen	face.in																					
 said the master to him and beat him with the pick in his face.																																											
-#668			#669							#670																																	
+#668										#670																																	
 sub										m																																	
 	A	SAY									A	P	v.tr							GEN		G																					
 																																											
@@ -4567,7 +4565,7 @@ king	-m.erg	large	-n	astonished	-nmlz	do.n	-pst.evid	go.seq	-adv	able	-	n-	work	
 The king was very astonished. Are you really able to shave by beating with the flat hand, he asked.																																											
 #679															#680								#681																				
 m 															sub.rs								m																				
-	A			P		v.tr										A	P	v.tr						ASK		A																	
+	A			P		v.tr										A	P	v.tr						SAY		A																	
 																																											
 	np-1			np-3												zero-1	np-3	noagr								np-1																	
 	king			astonishment		b-3										you.sg	pick									king																	
@@ -4943,7 +4941,7 @@ Utsumi	king	-m.erg	ask	-seq	n-	cop	one	teacher	-m.loc	one	-ever	day	-f/n.erg	2.o
 The king Utsumi asked one teacher (wise man), please mention me in the prayer one any day, I will give you 20 goats. OK, said the teacher and accepted.																																											
 #747									#748													#749								#750				#751									
 m									m.rs													m.rs								m.rs				m									
-		A	ASK					ADD				TIME		A		P	OTHER		v.tr				A		BEN			P	v.tr		S	PRED	COP		v.intr	S							
+		A	SAY					ADD				TIME		A		P	OTHER		v.tr				A		BEN			P	v.tr		S	PRED	COP		v.intr	S							
 																																											
 		np-1						np-1				np-3		pro-1		pro-1	np-3		noagr				pro-1		pro-1			np-3	noagr		zero-3	adj	b-3		noagr	np-1							
 		king						teacher				day		you.sg		I	prayer						refl		you.sg			goat			it	good				teacher							
@@ -5173,7 +5171,7 @@ this	-m	m-	burry	-inf	person.pl	pl-	gather	-pstpart	-n	place	-loc	village_chief	
 The people gathered in a place to burry that man, when the chief bent down to the dead man's ear and whispered something to him.																																											
 #784											#785										#786																						
 sub											sub										m																						
-					P		v.intr			LOC						S	G			v.intr		A	MANNER	P	v.tr																		
+					S		v.intr			LOC						S	G			v.intr		A	MANNER	P	v.tr																		
 																																											
 					np-pl		r-pl			np-3						zero-1	np-3			noagr		np-1	adv	np-3	noagr																		
 					people					place						chief	ear					chief	secretly	thing																			
@@ -5185,7 +5183,7 @@ person	-pl.erg	astonished	-nmlz	do.n	-pst.evid	one	-m.erg	village_chief	-m.loc	a
 The peole were astonished. One asked the chief.																																											
 #787						#788																																					
 m						m																																					
-	A	P		v.tr			A	ADD		ASK																																	
+	A	P		v.tr			A	ADD		SAY																																	
 																																											
 	np-pl	np-3		b-3			np-1	np-1																																			
 	people	astonishment					num	chief																																			
@@ -5258,7 +5256,7 @@ mulla	-gen	sermon	finish	-pstpart	-n	-adv	m.exit	-seq	one	from.Andi	-m.erg	ask	-
 When the prayer of the mullah finished, one man from Andi asked him: we heared of all the wealth in the paradise																																											
 #801					#802			#803									#804																										
 sub					sub			m									sub.rs																										
-	GEN	S	v.intr			S	v.intr			A		ASK				ADD			S		COP						LOC																
+	GEN	S	v.intr			S	v.intr			A		SAY				ADD			S		COP						LOC																
 																																											
 	np-1	np-3	b-3			zero-1	w-1			np-1						pro-1			np-3		b-3						np-3																
 	mulla	sermon				Andi.man				Andi.man						he			wealth								paradise																
@@ -5295,7 +5293,7 @@ that	-m.erg	horse.obl	-gen	owner	-m.loc	ask	-seq	n-	cop	pace	which	-n	n-	coppart
 He asked the owner of the horse: What is the pace of the horse?																																											
 #807									#808																																		
 m									m.rs																																		
-	A	GEN		ADD		ASK				S	PRED			COP		GEN																											
+	A	GEN		ADD		SAY				S	PRED			COP		GEN																											
 											b-3			b-3																													
 	pro-1	np-3		np-1						np-3	pro-3			b-3		np-3																											
 	he	horse		owner						pace	which					horse																											
@@ -5318,13 +5316,13 @@ co	zamanayasl	keto	ç’un	bugo	hanjeslaˤan	haburaldagi	rek’eq’slun,	tavbug
 co	zaman	-ayasl	keto	ç’	-un	b-	ugo	hanje	-sla	-ˤan	hab	-ura	-lda	-gi	rek’eq’slun			tavbu-gi	habun	ħej	-alde	ina	ab	-un	cebe	ba	-san	-dul	-e	-b	b-	ugo	-nigi	ˤonk’o	-q	-gi	balah	-ularo	-go				
 one	time	-erg	cat	be	-seq	n-	cop	now	-inel	-until	do.n	-pstpart	-f/n.loc	-foc	regret-seq			penance-foc	n.do.seq	hajj	-lat	go.fut	say	-seq	before.n	play		ptcp		-n	n-	cop	-ever	mouse.obl	-apud	-foc	n.look	-prs.neg	-adv				
 One time the cat said that it regretted what it had done until now and will go on the Hajj, and although before it was playing (with mice), it will not look at mice again.																																											
-#812							#813									#814				#815				#816									#817										
-m							sub.rs									sub.rs				m.rs				sub.rs									m.rs										
-	TIME		S		COP			S	TIME		P				v.intr		A	P	v.tr		S	G	v.intr		TIME	S	v.intr							S	G		v.intr						
+#812																#814				#815				#816									#817										
+m																sub.rs				m.rs				sub.rs									m.rs										
+	TIME		S		COP										v.tr		A	P	v.tr		S	G	v.intr		TIME	S	v.intr							S	G		v.intr						
 																									b-3		b-3																
-	np-3		np-3		b-3			zero-3	adv		np-3				noagr		zero-3	np-3	b-3		zero-3	np-3	noagr		adv	zero-3	b-3							zero-3	np-3		b-3						
-	time		cat					I	now		deed						I	penance			I	Hajj			before	I								I	mouse								
-	inanim		anim					anim			inanim						anim	anim			anim	anim				anim								anim	anim								
+	np-3		np-3		b-3										noagr		zero-3	np-3	b-3		zero-3	np-3	noagr		adv	zero-3	b-3							zero-3	np-3		b-3						
+	time		cat														I	penance			I	Hajj			before	I								I	mouse								
+	inanim		anim														anim	anim			anim	anim				anim								anim	anim								
 Cat.002																																											
 ˤunk’k’azul	xan	bixhize	botl’un	bugo	abun	bicun	bugo	katica.																																			
 ˤunk’k’	-azul	xan	b-	ixh	-ize	botl’un	b-	ugo	ab	-un	b-	ic	-un	b-	ugo	kati	-ca																										
@@ -5489,7 +5487,7 @@ bosom.in	-n	round.bread	-foc	be/put.seq	husband	market	-lat	go.pst.evid	there	-e
 положил муж за пазуху лепешку и вышел из дому. На базаре он купил небольшой кувшин и вернулся домой.																																											
 #846					#847				#848											#849																							
 sub					m				sub											m																							
-	A	G 	P	v.tr		S	G	v.tr		A	SOURCE					P			v.tr		S	v.intr																					
+	A	G 	P	v.tr		S	G	v.intr		A	SOURCE					P			v.tr		S	v.intr																					
 																																											
 	zero-1	np-3	np-3	noagr		np-1	np-3	noagr		zero-1	adv					np-3			b-3		zero-1	w-1																					
 	man	bosom	bread			husband	market			man	there					pitcher					man																						
@@ -5501,7 +5499,7 @@ wife	-f/n.erg	it.obl	-n	-dat	how.much	n.go	-ipfpart	-n	-quot	ask	-pstevid
 Жена спросила: Сколько в него входит?																																											
 #850									#851																																		
 m.rs									m																																		
-	G				S	v.intr				A	ASK																																
+	G				S	v.intr				A	SAY																																
 																																											
 	pro-2				pro-3	b-3				np-2																																	
 	it				how.much					wife																																	
@@ -5513,7 +5511,7 @@ by_God	this	-f/n.loc	inside	-n	-dat	how.much	n.go	-ipfpart	-n	-quot	1.obl	-erg	-
 Валлах, я не спросил, и они мне не сказали, сколько в кувшин входит, ответил муж и повернувшись, вышел.																																											
 #852									#853								#854			#855					#856				#857														
 m.rs									m								m.rs			m.rs					sub				m														
-			G			S	v.intr			ADD	A			ASK				S	v.intr		A			SAY		S	v.intr			S	v.tr												
+			G			S	v.intr			ADD	A			SAY				S	v.intr		A			SAY		S	v.intr			S	v.intr												
 			b-3																																								
 			adv			pro-3	b-3			pro1	pro1							np-3	b-3		pro-pl					zero-1	noagr			zero-1	w-1												
 			into			how.much				he	I							thing			they					man				man													
@@ -5525,7 +5523,7 @@ there.m	throw	-seq	there.down.m	throw	-seq					***	m-	watch	-pstevid	this	-m.erg
 Потокался он на базаре, исходил его вдоль и поперек, и наконец, нашел тоговца глияной посудой. Он спросил: Скажи, сколъко вмещается в тот кувшин, что ты мне продал? Хозяин сказал - В две мерки - три																																											
 #858				#859				#860															#861									#862			#863								
 sub				sub				m															m.rs									m			m.rs								
-	S	G	v.intr		S	G	v.intr		S			v.intr												G				S	v.intr				A	ASK		S		v.intr					
+	S	G	v.intr		S	G	v.intr		S			v.intr												G				S	v.intr				A	SAY		S		v.intr					
 		w-1				w-1																																					
 	zero-1	adv	noagr		zero-1	adv	noagr		zero-1			w-1												np-3				pro-3	b-3				pro-1			np-3		b-3					
 	man	there			man	there			man															pitcher				how.much					he			unit							
@@ -5585,7 +5583,7 @@ young_man.pl	king	-***	up.lat	pl.exit	-pstevid	wedding.in	pl-	coppart	-pl	youth.
 этого оказалось для них достаточно, и они набросились на него и избли его, приговаривая. Разве так обращаются люди, которые пришли на свадьбу?																																											
 #870						#871																								#872					#873								
 m 						sub																								sub					m								
-	S			v.tr			LOC			A	SAY																				S	OTHER		v.tr		A	P	v.tr					
+	S			v.intr			LOC			A	SAY																				S	OTHER		v.intr		A	P	v.tr					
 																																											
 	np-pl			r-pl			np-3			np-pl																					zero-1	np-3		noagr		zero-pl	zero-1	w-1					
 	guys						wedding			guys																					man	dung				guys	man						
@@ -5633,7 +5631,7 @@ much	-adv	be.late	-neg.seq	this.m	condolesence	-subel	-n	-pl.lat	up.lat	go	-pste
 Вскоре он пришел к дому, где умер человек. Салам алайкум, пусть радость и веселье не покинут вас!																																											
 #876				#877																	#878																						
 sub				m																	m																						
-	S	v.intr			S	G				v.tr												SAY		A																			
+	S	v.intr			S	G				v.intr												SAY		A																			
 																																											
 	zero-3	noagr			pro-1	np-3				noagr														pro-1																			
 					he	condolesence																		he																			
@@ -5657,7 +5655,7 @@ what	-evid	-even	say	-inf	fall.partprs	-n	n-	be	-pstpart	-n	1.obl	-erg	-quot	ask
 Что же я должен был вам сказать? спросил мужчина.																																											
 #881													#882																														
 m.rs													m																														
-	P 							v.tr			A			ASK		A																											
+	P 							v.tr			A			SAY		A																											
 								b-3																																			
 	pro-3							b-3			pro-1					pro-1																											
 	what										I					I																											
@@ -5729,7 +5727,7 @@ that	-m.erg	dem	-pl.loc	what	say	-inf	-emph	fall.partprs	-n	-pst.evid	ask	-pstev
 Что же я должен был вам сказать?																																											
 #888				#889																																							
 m 				m.rs																																							
-	A	ADD	ASK		A 	P		v.tr																																			
+	A	ADD	SAY		A 	P		v.tr																																			
 																																											
 	pro-1	pro-pl			zero-1	pro-3		b-3																																			
 	he	they			I	what																																					
@@ -5874,7 +5872,7 @@ wood	-pl.abs	bundle	-pl.abs	-foc	fill.seq	back	pl-	return	-seq	pl.come	-seq	vill
 When they had gathered enough wod, they returned and when they came to the edge of the village the girl asked the mother:																																											
 #914						#915					#916					#917																											
 sub						sub					sub					m																											
-	A	P			v.tr		S	v.intr				S	G	v.intr			A	ADD		ASK																							
+	A	P			v.tr		S	v.intr				S	G	v.intr			A	ADD		SAY																							
 																																											
 	zero-pl	np-3			noagr		zero-pl	r-pl				zero-pl	np-3	noagr			np-2	np-2																									
 	mother-girl	bundle					mother-girl					mother-girl	edge				girl	mother																									
@@ -5992,8 +5990,8 @@ hi,	dir	bet’erhançiyan	abunila	ç’ujuyasl,	bicine	jo	xadub	bugin,	cin	kavug
 hi	dir	bet’erhan	-çi	-yan	ab	-unila	ç’uju	-yasl	b-	ic	-ine	jo	xadu	-b	b-	ug	-in	cin	kavu	-gi	q’a	-n	t’ade	v-	aç’	-a																	
 oh	1.gen	owner	-nmlz	-quot	say	-pst.evid	wife	-f/n.erg	n-	tell	-inf	thing	behind	-n	n-	cop	-msd	then	door	-foc	close	-seq	up.lat	m-	come	-imp																	
 Oh, husband, said the wife, there is something to tell you, come in and close the door.																																											
-				#941																																							
-				m																																							
+				#941							#1001																																
+				m							m.rs																																
 					SAY		A					S				COP																											
 																																											
 					np-2							np-3				b-3																											
@@ -6115,7 +6113,7 @@ what	-adv	thing	n-	find	-negpst.evid	2.obl	erg	1pl.excl	here	-pl.lat	what	n-	see
 But they did not find anything. The people asked him, you called us to you in order to see what?																																											
 #961						#962												#963				#964										#965											
 m						m.rs												sub				m										m											
-	EXP	STIM		v.aff			A	P	G						v.tr				A	ASK			A		P	G				v.tr			EXP	LOC	STIM		v.aff						
+	EXP	STIM		v.aff			A	P	G						v.tr				A	SAY			A		P	G				v.tr			EXP	LOC	STIM		v.aff						
 									r-pl																	b-3																	
 	zero-pl	np-3		b-3			pro-1	pro-pl	adv						l-pl				np-pl				np-1		np-3	np-3				b-3			zero-1	adv	pro-3		b-3						
 	people	thing					you.sg	we	here										people				ploughman		yoke	hand							man	donw	nothing								
@@ -6176,7 +6174,7 @@ wife	-foc	husband	-foc	forest.in	-pl.lat	go.seq	pl-	be	-pstevid
 Wife and husband went into the forest.																																											
 #975																																											
 m 																																											
-	S			G				v.tr																																			
+	S			G				v.intr																																			
 																																											
 	np-pl			np-3				r-pl																																			
 	husband-wife			forest																																							
@@ -6467,7 +6465,7 @@ one	man	-m.apudlat	hold	-inf	type.of.bird	-quot	say	-prspart	-n	bird	reach.seq	n
 Поймал однажды человек в силки маленькую птичку called gerzelo																																											
 #999																																											
 m 																																											
-	G									P			v.intr																														
+	G									S			v.intr																														
 																																											
 	np-1									np-3			b-3																														
 	man									bird																																	
